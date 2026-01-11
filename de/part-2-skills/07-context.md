@@ -15,7 +15,7 @@ next_title: "Wann neu starten"
 
 Dieses Konzept wird verändern, wie Sie mit KI arbeiten.
 
-![Das Fenster](/code-with-ai/assets/images/diagrams/07-1-the-window.png)
+![Das Fenster](/code-with-ai/assets/images/diagrams/de/07-1-the-window.png)
 {: .chapter-diagram}
 *Abbildung 7.1: Das Fenster — KI sieht nur, was im Prompt steht*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Deshalb scheitern vage Prompts. Wenn Sie sagen „repariere die Funktion", nehme
 
 Es gibt fünf Arten von Kontext, die KI-Ergebnisse dramatisch verbessern.
 
-![Was teilen](/code-with-ai/assets/images/diagrams/07-2-what-to-share.png)
+![Was teilen](/code-with-ai/assets/images/diagrams/de/07-2-what-to-share.png)
 {: .chapter-diagram}
 *Abbildung 7.2: Was teilen — Fünf Arten von Kontext*
 {: .diagram-caption}

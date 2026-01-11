@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">FILES AND I/O</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Reading from and writing to files</text>
+
+  <!-- Analogy -->
+  <rect x="200" y="100" width="768" height="60" fill="url(#darkNavy)"/>
+  <text x="584" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Files are permanent storage - data survives when program ends</text>
+
+  <!-- READ Section -->
+  <rect x="60" y="190" width="500" height="280" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <rect x="60" y="190" width="500" height="50" fill="url(#deepBlue)"/>
+  <text x="310" y="222" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">READING FILES</text>
+
+  <!-- Read visual -->
+  <rect x="100" y="260" width="100" height="60" fill="#f5f5f5" stroke="#6882a1" stroke-width="1"/>
+  <text x="150" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">data.csv</text>
+
+  <text x="225" y="295" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#091358">→</text>
+
+  <rect x="250" y="260" width="120" height="60" fill="url(#steelBlue)"/>
+  <text x="310" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Your Program</text>
+
+  <!-- Code example -->
+  <rect x="80" y="340" width="460" height="100" fill="#f5f5f5"/>
+  <text x="100" y="365" font-family="Courier, monospace" font-size="12" fill="#6882a1"># Read entire file</text>
+  <text x="100" y="385" font-family="Courier, monospace" font-size="12" fill="#0d0829">with open("data.csv") as file:</text>
+  <text x="120" y="405" font-family="Courier, monospace" font-size="12" fill="#0d0829">content = file.read()</text>
+  <text x="100" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Data is now in memory as 'content'</text>
+
+  <!-- WRITE Section -->
+  <rect x="608" y="190" width="500" height="280" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <rect x="608" y="190" width="500" height="50" fill="url(#steelBlue)"/>
+  <text x="858" y="222" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">WRITING FILES</text>
+
+  <!-- Write visual -->
+  <rect x="658" y="260" width="120" height="60" fill="url(#deepBlue)"/>
+  <text x="718" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Your Program</text>
+
+  <text x="803" y="295" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#091358">→</text>
+
+  <rect x="828" y="260" width="100" height="60" fill="#f5f5f5" stroke="#6882a1" stroke-width="1"/>
+  <text x="878" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">results.txt</text>
+
+  <!-- Code example -->
+  <rect x="628" y="340" width="460" height="100" fill="#f5f5f5"/>
+  <text x="648" y="365" font-family="Courier, monospace" font-size="12" fill="#6882a1"># Write to file</text>
+  <text x="648" y="385" font-family="Courier, monospace" font-size="12" fill="#0d0829">with open("results.txt", "w") as file:</text>
+  <text x="668" y="405" font-family="Courier, monospace" font-size="12" fill="#0d0829">file.write("Stress: 250 MPa")</text>
+  <text x="648" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Data saved permanently to disk</text>
+
+  <!-- Common file types -->
+  <rect x="100" y="500" width="250" height="180" fill="url(#deepBlue)"/>
+  <text x="225" y="535" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Text Files</text>
+  <rect x="115" y="550" width="220" height="110" fill="#ffffff"/>
+  <text x="225" y="575" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">.txt - Plain text</text>
+  <text x="225" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">.csv - Spreadsheet data</text>
+  <text x="225" y="625" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">.json - Structured data</text>
+  <text x="225" y="650" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Human readable</text>
+
+  <rect x="385" y="500" width="250" height="180" fill="url(#steelBlue)"/>
+  <text x="510" y="535" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Data Files</text>
+  <rect x="400" y="550" width="220" height="110" fill="#ffffff"/>
+  <text x="510" y="575" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">.xlsx - Excel files</text>
+  <text x="510" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">.xml - Structured format</text>
+  <text x="510" y="625" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">.db - Databases</text>
+  <text x="510" y="650" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Use libraries to read</text>
+
+  <rect x="670" y="500" width="400" height="180" fill="url(#deepBlue)"/>
+  <text x="870" y="535" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Ask AI</text>
+  <rect x="685" y="550" width="370" height="110" fill="#ffffff"/>
+  <text x="870" y="575" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Read this CSV file into a list"</text>
+  <text x="870" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Write results to a new file"</text>
+  <text x="870" y="625" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Parse this JSON data"</text>
+  <text x="870" y="650" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">AI handles the details</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Files = Permanent data that survives restarts</text>
+</svg>

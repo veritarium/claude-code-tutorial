@@ -17,7 +17,7 @@ next_title: "Ihr erstes Projekt"
 
 Testen ist Qualitätskontrolle für Code. Genauso wie Sie keine Schraube versenden würden, ohne ihre Maße zu überprüfen, sollten Sie keinen Code verwenden, ohne zu überprüfen, dass er funktioniert.
 
-![Testen](/code-with-ai/assets/images/diagrams/16-1-testing.png)
+![Testen](/code-with-ai/assets/images/diagrams/de/16-1-testing.png)
 {: .chapter-diagram}
 *Abbildung 16.1: Testen — Überprüfen, dass es funktioniert*
 {: .diagram-caption}
@@ -40,7 +40,7 @@ Der einfachste Test ist eine Assertion: `assert result == expected, "Test fehlge
 
 Wenn Projekte über eine einzelne Datei hinauswachsen, wird Organisation wichtig. Ein gut strukturiertes Projekt ist einfacher zu verstehen, zu warten und zu teilen.
 
-![Projektstruktur](/code-with-ai/assets/images/diagrams/16-2-project-structure.png)
+![Projektstruktur](/code-with-ai/assets/images/diagrams/de/16-2-project-structure.png)
 {: .chapter-diagram}
 *Abbildung 16.2: Projektstruktur — Organisierte Dateien*
 {: .diagram-caption}

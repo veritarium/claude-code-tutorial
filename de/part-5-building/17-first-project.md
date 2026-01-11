@@ -19,7 +19,7 @@ Alles, was Sie gelernt haben, kommt jetzt zusammen. Sie verstehen die Schleife, 
 
 Jedes erfolgreiche Projekt folgt drei Phasen: planen, bauen und verfeinern. Das ist keine Bürokratie—so wird funktionierende Software gemacht.
 
-![Ihr erstes Projekt](/code-with-ai/assets/images/diagrams/17-1-your-first-project.png)
+![Ihr erstes Projekt](/code-with-ai/assets/images/diagrams/de/17-1-your-first-project.png)
 {: .chapter-diagram}
 *Abbildung 17.1: Ihr erstes Projekt — Der Ansatz*
 {: .diagram-caption}
@@ -40,7 +40,7 @@ Verfeinern bedeutet, das zu polieren, was Sie gebaut haben. Behandeln Sie Grenzf
 
 Bevor Sie ein Projekt als abgeschlossen betrachten, gehen Sie diese mentale Checkliste durch. Sie fängt die Probleme ab, die Anfänger stolpern lassen.
 
-![Projekt-Checkliste](/code-with-ai/assets/images/diagrams/17-2-project-checklist.png)
+![Projekt-Checkliste](/code-with-ai/assets/images/diagrams/de/17-2-project-checklist.png)
 {: .chapter-diagram}
 *Abbildung 17.2: Projekt-Checkliste — Bevor Sie veröffentlichen*
 {: .diagram-caption}

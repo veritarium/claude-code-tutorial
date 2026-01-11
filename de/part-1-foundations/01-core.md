@@ -17,7 +17,7 @@ Beginnen wir mit dem wichtigsten Konzept in diesem gesamten Tutorial.
 
 Sie müssen kein Programmierer werden. Sie müssen ein *Builder* werden.
 
-![Die Kernpartnerschaft](/code-with-ai/assets/images/diagrams/01-1-the-core.png)
+![Die Kernpartnerschaft](/code-with-ai/assets/images/diagrams/de/01-1-the-core.png)
 {: .chapter-diagram}
 *Abbildung 1.1: Der Kern — Sie und KI arbeiten durch Prompts zusammen, um Software zu erstellen*
 {: .diagram-caption}

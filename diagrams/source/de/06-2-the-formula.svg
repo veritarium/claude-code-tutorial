@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">DIE FORMEL</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">The perfect structure for feedback</text>
+
+  <!-- Main formula box -->
+  <rect x="134" y="110" width="900" height="120" fill="url(#darkNavy)"/>
+  <text x="584" y="165" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">"Got [X]. Expected [Y]. Change [Z]."</text>
+  <text x="584" y="205" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle">Three parts, complete information, immediate fix</text>
+
+  <!-- Three component boxes -->
+  <!-- GOT [X] -->
+  <rect x="84" y="260" width="320" height="200" fill="#ffffff" stroke="#b60002" stroke-width="2"/>
+  <rect x="84" y="260" width="320" height="50" fill="url(#badRed)"/>
+  <text x="244" y="292" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">GOT [X]</text>
+  <text x="244" y="340" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">What actually happened</text>
+  <text x="244" y="375" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The current output</text>
+  <text x="244" y="400" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The error message</text>
+  <text x="244" y="425" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The current behavior</text>
+
+  <!-- Arrow 1 -->
+  <text x="430" y="360" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#0d0829">→</text>
+
+  <!-- EXPECTED [Y] -->
+  <rect x="474" y="260" width="320" height="200" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <rect x="474" y="260" width="320" height="50" fill="url(#goodGreen)"/>
+  <text x="634" y="292" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">EXPECTED [Y]</text>
+  <text x="634" y="340" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">What should happen</text>
+  <text x="634" y="375" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The correct output</text>
+  <text x="634" y="400" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The desired behavior</text>
+  <text x="634" y="425" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">• The expected result</text>
+
+  <!-- Arrow 2 -->
+  <text x="820" y="360" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#0d0829">→</text>
+
+  <!-- CHANGE [Z] -->
+  <rect x="864" y="260" width="220" height="200" fill="#ffffff" stroke="#6882a1" stroke-width="2"/>
+  <rect x="864" y="260" width="220" height="50" fill="url(#steelBlue)"/>
+  <text x="974" y="292" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">CHANGE [Z]</text>
+  <text x="974" y="340" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6882a1" text-anchor="middle">What to modify</text>
+  <text x="974" y="375" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">• Specific fix</text>
+  <text x="974" y="400" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">• Which part</text>
+  <text x="974" y="425" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">• (Optional)</text>
+
+  <!-- Example section -->
+  <rect x="134" y="490" width="900" height="200" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <text x="584" y="525" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0a7c42" text-anchor="middle">Example</text>
+
+  <text x="180" y="570" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002">Got:</text>
+  <text x="225" y="570" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829">"Function returns 15 when given input [1, 2, 3, 4, 5]"</text>
+
+  <text x="180" y="610" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42">Expected:</text>
+  <text x="275" y="610" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829">"Should return 120 (the product, not the sum)"</text>
+
+  <text x="180" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6882a1">Change:</text>
+  <text x="260" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829">"Use multiplication instead of addition in the loop"</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Complete information = One-shot fix</text>
+</svg>

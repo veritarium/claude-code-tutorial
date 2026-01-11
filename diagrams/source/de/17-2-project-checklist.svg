@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">PROJEKT-CHECKLISTE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Alles überprüfen bevor man es fertig nennt</text>
+
+  <!-- Main checklist area -->
+  <rect x="100" y="110" width="968" height="580" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+
+  <!-- Before Starting -->
+  <rect x="120" y="130" width="440" height="180" fill="url(#goodGreen)"/>
+  <text x="340" y="165" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Vor dem Start</text>
+  <rect x="140" y="185" width="400" height="105" fill="#ffffff"/>
+  <text x="170" y="215" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Goal clearly defined?</text>
+  <text x="170" y="245" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Inputs and outputs identified?</text>
+  <text x="170" y="275" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Broken into small tasks?</text>
+
+  <!-- While Building -->
+  <rect x="600" y="130" width="440" height="180" fill="url(#steelBlue)"/>
+  <text x="820" y="165" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Während des Bauens</text>
+  <rect x="620" y="185" width="400" height="105" fill="#ffffff"/>
+  <text x="650" y="215" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Testing each piece?</text>
+  <text x="650" y="245" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Understanding AI's code?</text>
+  <text x="650" y="275" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Saving working versions?</text>
+
+  <!-- Before Finishing -->
+  <rect x="120" y="330" width="440" height="180" fill="url(#steelBlue)"/>
+  <text x="340" y="365" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Vor dem Abschluss</text>
+  <rect x="140" y="385" width="400" height="105" fill="#ffffff"/>
+  <text x="170" y="415" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Works with normal input?</text>
+  <text x="170" y="445" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Works with edge cases?</text>
+  <text x="170" y="475" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1">Has clear error messages?</text>
+
+  <!-- Quality Check -->
+  <rect x="600" y="330" width="440" height="180" fill="url(#goodGreen)"/>
+  <text x="820" y="365" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Qualitätsprüfung</text>
+  <rect x="620" y="385" width="400" height="105" fill="#ffffff"/>
+  <text x="650" y="415" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Code readable?</text>
+  <text x="650" y="445" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Names descriptive?</text>
+  <text x="650" y="475" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42">Comments where needed?</text>
+
+  <!-- Final Check -->
+  <rect x="250" y="530" width="668" height="140" fill="url(#darkNavy)"/>
+  <text x="584" y="570" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Letzte Fragen</text>
+  <rect x="270" y="590" width="628" height="60" fill="#ffffff"/>
+  <text x="584" y="615" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Can someone else use this without your help?</text>
+  <text x="584" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Would you trust this code in production?</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Checklist complete = Project ready to ship</text>
+</svg>

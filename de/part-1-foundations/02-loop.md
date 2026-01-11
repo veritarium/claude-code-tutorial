@@ -15,7 +15,7 @@ next_title: "Sechs Operationen"
 
 So funktioniert jede Programmiersitzung mit KI tatsächlich. Prägen Sie sich diese Schleife ein.
 
-![Die Schleife](/code-with-ai/assets/images/diagrams/02-1-the-loop.png)
+![Die Schleife](/code-with-ai/assets/images/diagrams/de/02-1-the-loop.png)
 {: .chapter-diagram}
 *Abbildung 2.1: Die Schleife — Beschreiben, Erhalten, Ausführen, Bewerten, Wiederholen*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Schließlich treffen Sie eine Entscheidung: **Fertig oder Verfeinern?** Wenn es 
 
 Hier liegt der größte Fehler der meisten Anfänger: Sie erwarten Perfektion beim ersten Versuch.
 
-![Der Entwurf](/code-with-ai/assets/images/diagrams/02-2-the-draft.png)
+![Der Entwurf](/code-with-ai/assets/images/diagrams/de/02-2-the-draft.png)
 {: .chapter-diagram}
 *Abbildung 2.2: Der Entwurf — Fortschritt durch Iteration*
 {: .diagram-caption}

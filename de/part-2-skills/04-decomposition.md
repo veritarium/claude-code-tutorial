@@ -15,7 +15,7 @@ next_title: "Präzision"
 
 Dies ist die wichtigste Fähigkeit beim Programmieren mit KI: große Dinge in kleine Dinge zerlegen.
 
-![Zerlegung](/code-with-ai/assets/images/diagrams/04-1-decomposition.png)
+![Zerlegung](/code-with-ai/assets/images/diagrams/de/04-1-decomposition.png)
 {: .chapter-diagram}
 *Abbildung 4.1: Zerlegung — Große Aufgaben in KI-gerechte Teile aufbrechen*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Denken Sie daran wie an technische Zeichnungen. Sie geben niemandem eine Skizze 
 
 Hier ist ein einfacher Test, um zu wissen, ob Ihre Aufgabe die richtige Größe hat.
 
-![Die Regel](/code-with-ai/assets/images/diagrams/04-2-the-rule.png)
+![Die Regel](/code-with-ai/assets/images/diagrams/de/04-2-the-rule.png)
 {: .chapter-diagram}
 *Abbildung 4.2: Die Ein-Satz-Regel — Der Test für richtig bemessene Aufgaben*
 {: .diagram-caption}

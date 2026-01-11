@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="50" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">DIE SCHLEIFE</text>
+  <text x="584" y="82" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Der fundamentale Rhythmus KI-gestützter Entwicklung</text>
+
+  <!-- DESCRIBE Box (top center) - User action = Blue -->
+  <rect x="456" y="120" width="256" height="90" fill="url(#deepBlue)"/>
+  <text x="584" y="160" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">BESCHREIBEN</text>
+  <text x="584" y="190" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">"Erstelle eine Funktion, die..."</text>
+
+  <!-- GET Box (right) - AI action = Red -->
+  <rect x="820" y="280" width="240" height="90" fill="url(#aiPurple)"/>
+  <text x="940" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">ERHALTEN</text>
+  <text x="940" y="350" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">KI generiert Code</text>
+
+  <!-- RUN Box (right below) - Neutral action = Steel -->
+  <rect x="820" y="440" width="240" height="90" fill="url(#steelBlue)"/>
+  <text x="940" y="480" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">AUSFÜHREN</text>
+  <text x="940" y="510" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">Ausführen und beobachten</text>
+
+  <!-- EVALUATE Box (center) - Decision = Dark Navy Diamond -->
+  <polygon points="584,400 704,485 584,570 464,485" fill="url(#darkNavy)"/>
+  <text x="584" y="475" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">BEWERTEN</text>
+  <text x="584" y="505" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-style="italic">Funktioniert es?</text>
+
+  <!-- REFINE Box (left) - User action = Blue -->
+  <rect x="110" y="280" width="240" height="110" fill="url(#deepBlue)"/>
+  <text x="230" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">VERFEINERN</text>
+  <text x="230" y="350" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-style="italic">"Ändere X zu Y..."</text>
+  <text x="230" y="372" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-style="italic">"Behebe den Fehler..."</text>
+
+  <!-- DONE Box (bottom left) - Success = Dark Navy -->
+  <rect x="110" y="620" width="200" height="80" fill="url(#darkNavy)"/>
+  <text x="210" y="660" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">FERTIG</text>
+  <text x="210" y="688" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">Es funktioniert!</text>
+
+  <!-- Arrow: DESCRIBE → GET -->
+  <path d="M 712 165 L 780 165 L 780 325 L 812 325" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="820,325 808,318 808,332" fill="#0d0829"/>
+
+  <!-- Arrow: GET → RUN -->
+  <path d="M 940 370 L 940 432" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="940,440 933,428 947,428" fill="#0d0829"/>
+
+  <!-- Arrow: RUN → EVALUATE -->
+  <path d="M 820 485 L 712 485" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="704,485 716,478 716,492" fill="#0d0829"/>
+
+  <!-- Arrow: EVALUATE → DONE (Yes path) -->
+  <path d="M 464 485 L 380 485 L 380 660 L 302 660" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="310,660 322,653 322,667" fill="#0d0829"/>
+  <rect x="355" y="468" width="50" height="26" fill="#ffffff"/>
+  <text x="380" y="487" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d0829" text-anchor="middle">JA</text>
+
+  <!-- Arrow: EVALUATE → REFINE (No path) -->
+  <path d="M 524 440 L 524 335 L 358 335" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="350,335 362,328 362,342" fill="#0d0829"/>
+  <rect x="420" y="395" width="40" height="26" fill="#ffffff"/>
+  <text x="440" y="414" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d0829" text-anchor="middle">NEIN</text>
+
+  <!-- Arrow: REFINE → DESCRIBE (loop back) -->
+  <path d="M 230 280 L 230 165 L 448 165" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="456,165 444,158 444,172" fill="#0d0829"/>
+
+  <!-- Info box at bottom -->
+  <rect x="400" y="740" width="368" height="60" fill="#ffffff" stroke="#6882a1" stroke-width="2"/>
+  <text x="584" y="778" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1" text-anchor="middle">Typisch: 2–5 Zyklen für einfache Aufgaben, 5–15 für komplexe</text>
+
+  <!-- Legend -->
+  <rect x="950" y="620" width="24" height="24" fill="url(#deepBlue)"/>
+  <text x="982" y="639" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Du</text>
+
+  <rect x="950" y="652" width="24" height="24" fill="url(#aiPurple)"/>
+  <text x="982" y="671" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">KI</text>
+
+  <rect x="950" y="684" width="24" height="24" fill="url(#steelBlue)"/>
+  <text x="982" y="703" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Aktion</text>
+
+  <rect x="950" y="716" width="24" height="24" fill="url(#darkNavy)"/>
+  <text x="982" y="735" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Entscheidung</text>
+</svg>

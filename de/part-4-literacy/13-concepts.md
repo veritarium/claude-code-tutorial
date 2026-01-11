@@ -19,7 +19,7 @@ Jedes Programm, dem Sie begegnen werden, ist aus denselben grundlegenden Konzept
 
 Variablen sind benannte Behälter für Daten. Das ist das gesamte Konzept. Denken Sie an sie als beschriftete Boxen—der Name sagt Ihnen, was drin ist.
 
-![Variablen](/code-with-ai/assets/images/diagrams/13-1-variables.png)
+![Variablen](/code-with-ai/assets/images/diagrams/de/13-1-variables.png)
 {: .chapter-diagram}
 *Abbildung 13.1: Variablen — Benannte Behälter für Daten*
 {: .diagram-caption}
@@ -40,7 +40,7 @@ Benennung ist enorm wichtig. Verwenden Sie beschreibende Namen ohne Leerzeichen 
 
 Kontrollfluss bestimmt, wie Programme Entscheidungen treffen und Aktionen wiederholen. Drei Muster handhaben praktisch alle Programmierlogik.
 
-![Kontrollfluss](/code-with-ai/assets/images/diagrams/13-2-control-flow.png)
+![Kontrollfluss](/code-with-ai/assets/images/diagrams/de/13-2-control-flow.png)
 {: .chapter-diagram}
 *Abbildung 13.2: Kontrollfluss — Entscheidungen und Wiederholung*
 {: .diagram-caption}

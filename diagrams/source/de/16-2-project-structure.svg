@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">PROJEKTSTRUKTUR</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Organizing files for bigger projects</text>
+
+  <!-- Analogy -->
+  <rect x="200" y="100" width="768" height="60" fill="url(#darkNavy)"/>
+  <text x="584" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">A good folder structure = a well-organized toolbox</text>
+
+  <!-- Visual folder structure -->
+  <rect x="60" y="190" width="450" height="450" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="285" y="225" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Typical Project Structure</text>
+
+  <!-- Tree structure -->
+  <text x="100" y="270" font-family="Courier, monospace" font-size="14" fill="#091358" font-weight="bold">bolt_calculator/</text>
+  <text x="120" y="300" font-family="Courier, monospace" font-size="13" fill="#0d0829">main.py</text>
+  <text x="280" y="300" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Entry point</text>
+  <text x="120" y="330" font-family="Courier, monospace" font-size="13" fill="#0d0829">calculations.py</text>
+  <text x="280" y="330" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Core functions</text>
+  <text x="120" y="360" font-family="Courier, monospace" font-size="13" fill="#0d0829">utils.py</text>
+  <text x="280" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Helper functions</text>
+
+  <text x="120" y="400" font-family="Courier, monospace" font-size="13" fill="#091358">data/</text>
+  <text x="280" y="400" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Input files</text>
+  <text x="145" y="425" font-family="Courier, monospace" font-size="12" fill="#6882a1">bolt_specs.csv</text>
+  <text x="145" y="450" font-family="Courier, monospace" font-size="12" fill="#6882a1">materials.json</text>
+
+  <text x="120" y="490" font-family="Courier, monospace" font-size="13" fill="#091358">output/</text>
+  <text x="280" y="490" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Results</text>
+  <text x="145" y="515" font-family="Courier, monospace" font-size="12" fill="#6882a1">results.txt</text>
+
+  <text x="120" y="555" font-family="Courier, monospace" font-size="13" fill="#091358">tests/</text>
+  <text x="280" y="555" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Test files</text>
+  <text x="145" y="580" font-family="Courier, monospace" font-size="12" fill="#6882a1">test_calculations.py</text>
+
+  <text x="120" y="615" font-family="Courier, monospace" font-size="13" fill="#0d0829">README.md</text>
+  <text x="280" y="615" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Dokumentation</text>
+
+  <!-- Why organize -->
+  <rect x="560" y="190" width="500" height="220" fill="url(#deepBlue)"/>
+  <text x="810" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Why Organize?</text>
+
+  <rect x="580" y="250" width="460" height="140" fill="#ffffff"/>
+  <text x="600" y="285" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358">Find files quickly</text>
+  <text x="600" y="315" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358">Separate concerns (logic vs data vs tests)</text>
+  <text x="600" y="345" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358">Easy to share and collaborate</text>
+  <text x="600" y="375" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358">Professional standard</text>
+
+  <!-- File naming -->
+  <rect x="560" y="430" width="500" height="210" fill="url(#steelBlue)"/>
+  <text x="810" y="470" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">File Naming Rules</text>
+
+  <rect x="580" y="490" width="460" height="130" fill="#ffffff"/>
+  <text x="600" y="520" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Lowercase: calculations.py (not Calculations.py)</text>
+  <text x="600" y="545" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Underscores: bolt_stress.py (not bolt-stress.py)</text>
+  <text x="600" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Descriptive: test_calculations.py (not test1.py)</text>
+  <text x="600" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-style="italic">Names should describe content</text>
+
+  <!-- Key tip -->
+  <rect x="200" y="670" width="768" height="50" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="702" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Ask AI: "Create a project structure for [description]" - it will set everything up</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="740" width="668" height="60" fill="url(#darkNavy)"/>
+  <text x="584" y="778" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Organized project = Maintainable project</text>
+</svg>

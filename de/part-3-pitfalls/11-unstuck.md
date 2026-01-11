@@ -15,7 +15,7 @@ next_title: "Code lesen"
 
 Feststecken ist normal. Es früh zu erkennen spart Zeit.
 
-![Feststecken](/code-with-ai/assets/images/diagrams/11-1-the-stuck.png)
+![Feststecken](/code-with-ai/assets/images/diagrams/de/11-1-the-stuck.png)
 {: .chapter-diagram}
 *Abbildung 11.1: Die Feststeck-Schleife — Früh erkennen*
 {: .diagram-caption}
@@ -36,7 +36,7 @@ Die Feststeck-Schleife sieht so aus: VERSUCHEN → SCHEITERN → WIEDER VERSUCHE
 
 Es gibt sechs Wege, wieder voranzukommen. Wählen Sie einen basierend auf Ihrer Situation.
 
-![Auswege](/code-with-ai/assets/images/diagrams/11-2-escape-routes.png)
+![Auswege](/code-with-ai/assets/images/diagrams/de/11-2-escape-routes.png)
 {: .chapter-diagram}
 *Abbildung 11.2: Auswege — Sechs Wege heraus*
 {: .diagram-caption}

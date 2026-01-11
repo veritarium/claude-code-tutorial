@@ -17,7 +17,7 @@ Die KI hat Ihnen etwas gegeben. Es ist nicht ganz richtig. Was sagen Sie als Nä
 
 Hier scheitern die meisten Anfänger. Sie geben schlechtes Feedback und wundern sich dann, warum die KI ihnen immer wieder falsche Antworten gibt.
 
-![Gutes vs. schlechtes Feedback](/code-with-ai/assets/images/diagrams/06-1-good-vs-bad.png)
+![Gutes vs. schlechtes Feedback](/code-with-ai/assets/images/diagrams/de/06-1-good-vs-bad.png)
 {: .chapter-diagram}
 *Abbildung 6.1: Gutes vs. schlechtes Feedback — Was funktioniert und was nicht*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Erkennen Sie das Muster? Gutes Feedback sagt der KI genau, was falsch ist, und s
 
 Hier ist eine Formel, die Sie jedes Mal verwenden können, wenn die KI Ihnen etwas gibt, das nicht ganz richtig ist.
 
-![Die Formel](/code-with-ai/assets/images/diagrams/06-2-the-formula.png)
+![Die Formel](/code-with-ai/assets/images/diagrams/de/06-2-the-formula.png)
 {: .chapter-diagram}
 *Abbildung 6.2: Die Feedback-Formel — Bekommen X, Erwartet Y, Ändere Z*
 {: .diagram-caption}

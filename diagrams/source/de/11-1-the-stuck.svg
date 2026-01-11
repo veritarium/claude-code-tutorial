@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">FESTSTECKEN</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Erkennen, wenn du dich im Kreis drehst</text>
+
+  <!-- Warning signs section -->
+  <rect x="100" y="110" width="450" height="320" fill="url(#badRed)"/>
+  <text x="325" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Warnzeichen</text>
+  <text x="325" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Du steckst vielleicht fest, wenn...</text>
+
+  <rect x="120" y="200" width="410" height="210" fill="#ffffff"/>
+  <text x="140" y="235" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002">Der gleiche Fehler kommt immer wieder</text>
+  <text x="140" y="270" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002">Eine Sache reparieren bricht eine andere</text>
+  <text x="140" y="305" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002">KI gibt wiederholt die gleiche Antwort</text>
+  <text x="140" y="340" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002">Mehr als 5 Versuche, kein Fortschritt</text>
+  <text x="140" y="375" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002">Frustriert oder verwirrt werden</text>
+
+  <!-- What's happening section -->
+  <rect x="618" y="110" width="450" height="320" fill="url(#goodGreen)"/>
+  <text x="843" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Was passiert</text>
+  <text x="843" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Häufige Gründe fürs Feststecken</text>
+
+  <rect x="638" y="200" width="410" height="210" fill="#ffffff"/>
+  <text x="658" y="235" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42">Falsches mentales Modell des Problems</text>
+  <text x="658" y="270" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42">Wichtige Informationen fehlen</text>
+  <text x="658" y="305" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42">Aufgabe ist tatsächlich zu komplex</text>
+  <text x="658" y="340" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42">Das falsche Problem wird gelöst</text>
+  <text x="658" y="375" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42">Kontextfenster erschöpft</text>
+
+  <!-- The pattern -->
+  <rect x="150" y="460" width="868" height="150" fill="#ffffff" stroke="#6882a1" stroke-width="2"/>
+  <text x="584" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#6882a1" text-anchor="middle">Die Feststeck-Schleife</text>
+
+  <!-- Loop visualization -->
+  <rect x="200" y="520" width="150" height="60" fill="url(#steelBlue)"/>
+  <text x="275" y="558" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">VERSUCH</text>
+
+  <text x="375" y="555" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="410" y="520" width="150" height="60" fill="url(#badRed)"/>
+  <text x="485" y="558" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">FEHLER</text>
+
+  <text x="585" y="555" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="620" y="520" width="150" height="60" fill="url(#steelBlue)"/>
+  <text x="695" y="558" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">ERNEUT VERSUCHEN</text>
+
+  <text x="795" y="555" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="830" y="520" width="150" height="60" fill="url(#badRed)"/>
+  <text x="905" y="558" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">GLEICHER FEHLER</text>
+
+  <!-- Curved arrow back -->
+  <path d="M 905 580 Q 905 610 584 610 Q 275 610 275 580" stroke="#b60002" stroke-width="3" fill="none"/>
+  <polygon points="275,580 265,595 285,595" fill="#b60002"/>
+
+  <!-- Key insight -->
+  <rect x="200" y="640" width="768" height="60" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <text x="584" y="678" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Feststecken ist Information: dein Ansatz muss sich ändern</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="730" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="770" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Feststecken früh erkennen = Zeit und Frust sparen</text>
+</svg>

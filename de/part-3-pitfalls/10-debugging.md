@@ -15,7 +15,7 @@ next_title: "Wieder vorankommen"
 
 Ihr Code funktioniert nicht. Hier ist der systematische Ansatz zur Behebung.
 
-![Der Debugging-Ablauf](/code-with-ai/assets/images/diagrams/10-1-the-debugging.png)
+![Der Debugging-Ablauf](/code-with-ai/assets/images/diagrams/de/10-1-the-debugging.png)
 {: .chapter-diagram}
 *Abbildung 10.1: Der Debugging-Ablauf — Ein systematischer Ansatz*
 {: .diagram-caption}
@@ -34,7 +34,7 @@ Der Unterschied zwischen schlechten und guten Debug-Anfragen ist deutlich. Eine 
 
 Das Verständnis von Fehlertypen hilft Ihnen, sie besser für die KI zu beschreiben.
 
-![Fehlertypen](/code-with-ai/assets/images/diagrams/10-2-error-types.png)
+![Fehlertypen](/code-with-ai/assets/images/diagrams/de/10-2-error-types.png)
 {: .chapter-diagram}
 *Abbildung 10.2: Fehlertypen — Kennen Sie Ihre Fehler*
 {: .diagram-caption}

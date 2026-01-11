@@ -17,7 +17,7 @@ next_title: "Daten und Dateien"
 
 Eine Funktion ist wie eine Maschine: etwas hineingeben, etwas herausbekommen. Funktionen lassen Sie Code in wiederverwendbare Bausteine verpacken, die Sie immer wieder verwenden können.
 
-![Funktionen](/code-with-ai/assets/images/diagrams/14-1-functions.png)
+![Funktionen](/code-with-ai/assets/images/diagrams/de/14-1-functions.png)
 {: .chapter-diagram}
 *Abbildung 14.1: Funktionen — Wiederverwendbare Bausteine*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Funktionen sind wichtig, weil sie Code wiederverwenden lassen—einmal schreiben
 
 Bibliotheken sind vorgefertigter Code, den Sie verwenden können. Sie sind Sammlungen von Funktionen, die andere geschrieben und getestet haben, damit Sie das Rad nicht neu erfinden müssen.
 
-![Bibliotheken](/code-with-ai/assets/images/diagrams/14-2-libraries.png)
+![Bibliotheken](/code-with-ai/assets/images/diagrams/de/14-2-libraries.png)
 {: .chapter-diagram}
 *Abbildung 14.2: Bibliotheken — Auf den Schultern von Riesen stehen*
 {: .diagram-caption}

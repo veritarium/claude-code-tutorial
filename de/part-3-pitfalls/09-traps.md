@@ -15,7 +15,7 @@ next_title: "Debugging"
 
 Sprechen wir über Fehler. Jeder Anfänger macht diese. Jetzt werden Sie es nicht mehr.
 
-![Häufige Fallen](/code-with-ai/assets/images/diagrams/09-1-common-traps.png)
+![Häufige Fallen](/code-with-ai/assets/images/diagrams/de/09-1-common-traps.png)
 {: .chapter-diagram}
 *Abbildung 9.1: Häufige Fallen — Fehler, die jeder macht*
 {: .diagram-caption}
@@ -42,7 +42,7 @@ Schließlich ist die sechste Falle, nicht aus dem Code zu lernen, den Sie verwen
 
 Wie sehr sollten Sie der Ausgabe der KI vertrauen? Es hängt von den Konsequenzen eines Fehlers ab.
 
-![Vertrauensstufen](/code-with-ai/assets/images/diagrams/09-2-trust-levels.png)
+![Vertrauensstufen](/code-with-ai/assets/images/diagrams/de/09-2-trust-levels.png)
 {: .chapter-diagram}
 *Abbildung 9.2: Vertrauensstufen — Wie viel Überprüfung ist nötig*
 {: .diagram-caption}

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">WICHTIGSTE ERKENNTNISSE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Alles auf einer Seite</text>
+
+  <!-- Core partnership -->
+  <rect x="100" y="100" width="968" height="100" fill="url(#darkNavy)"/>
+  <text x="584" y="145" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">YOU + AI = BUILDER</text>
+  <text x="584" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">You provide direction and judgment. AI provides code and speed.</text>
+
+  <!-- 6 key principles -->
+  <rect x="60" y="230" width="330" height="130" fill="url(#deepBlue)"/>
+  <text x="225" y="270" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">1. THE LOOP</text>
+  <text x="225" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Describe → Get → Run → Evaluate</text>
+  <text x="225" y="330" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Iterate until it works</text>
+
+  <rect x="420" y="230" width="330" height="130" fill="url(#steelBlue)"/>
+  <text x="585" y="270" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">2. DECOMPOSE</text>
+  <text x="585" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Big task → Small tasks</text>
+  <text x="585" y="330" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">One sentence = right size</text>
+
+  <rect x="780" y="230" width="330" height="130" fill="url(#deepBlue)"/>
+  <text x="945" y="270" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">3. BE SPECIFIC</text>
+  <text x="945" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Precise prompts = Better results</text>
+  <text x="945" y="330" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">What, where, how, why, example</text>
+
+  <rect x="60" y="380" width="330" height="130" fill="url(#steelBlue)"/>
+  <text x="225" y="420" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">4. GIVE FEEDBACK</text>
+  <text x="225" y="450" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Got X, Expected Y, Change Z</text>
+  <text x="225" y="480" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Tell AI what's wrong specifically</text>
+
+  <rect x="420" y="380" width="330" height="130" fill="url(#deepBlue)"/>
+  <text x="585" y="420" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">5. SHARE CONTEXT</text>
+  <text x="585" y="450" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">AI only knows what you tell it</text>
+  <text x="585" y="480" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Code, errors, constraints</text>
+
+  <rect x="780" y="380" width="330" height="130" fill="url(#badRed)"/>
+  <text x="945" y="420" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">6. KNOW WHEN TO RESTART</text>
+  <text x="945" y="450" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">5 attempts, then fresh start</text>
+  <text x="945" y="480" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Cut losses and try again</text>
+
+  <!-- The formula -->
+  <rect x="200" y="540" width="768" height="100" fill="#ffffff" stroke="#091358" stroke-width="3"/>
+  <text x="584" y="580" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#091358" text-anchor="middle">The Formula for Success</text>
+  <text x="584" y="615" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#0d0829" text-anchor="middle">Clear Goal + Small Steps + Iteration + Persistence = Working Code</text>
+
+  <!-- Final message -->
+  <rect x="150" y="670" width="868" height="60" fill="url(#deepBlue)"/>
+  <text x="584" y="708" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">You now have everything you need. Start building.</text>
+
+  <!-- Bottom -->
+  <rect x="250" y="760" width="668" height="50" fill="url(#darkNavy)"/>
+  <text x="584" y="792" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">From Non-Coder to Builder: Complete</text>
+</svg>

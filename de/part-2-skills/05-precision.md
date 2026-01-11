@@ -15,7 +15,7 @@ next_title: "Feedback"
 
 Nicht alle Prompts sind gleich. Es gibt ein Spektrum von vage bis präzise, und wo Sie auf diesem Spektrum landen, bestimmt Ihre Erfolgsquote.
 
-![Das Spektrum](/code-with-ai/assets/images/diagrams/05-1-the-spectrum.png)
+![Das Spektrum](/code-with-ai/assets/images/diagrams/de/05-1-the-spectrum.png)
 {: .chapter-diagram}
 *Abbildung 5.1: Das Spektrum — Von vage bis präzise*
 {: .diagram-caption}
@@ -40,7 +40,7 @@ Ja, das Schreiben präziser Prompts kostet im Voraus mehr Zeit. Aber es spart en
 
 Hier ist ein Rahmenwerk für das Erstellen präziser Prompts. Fünf Komponenten, jede fügt Klarheit hinzu.
 
-![Fünf Komponenten](/code-with-ai/assets/images/diagrams/05-2-five-components.png)
+![Fünf Komponenten](/code-with-ai/assets/images/diagrams/de/05-2-five-components.png)
 {: .chapter-diagram}
 *Abbildung 5.2: Fünf Komponenten — Das Rahmenwerk für präzise Prompts*
 {: .diagram-caption}

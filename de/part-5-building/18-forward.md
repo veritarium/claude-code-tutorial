@@ -19,7 +19,7 @@ Sie haben einen weiten Weg zurückgelegt. Am Anfang dieses Tutorials glaubten Si
 
 Programmieren mit KI zu lernen folgt einem natürlichen Fortschritt. Jeder beginnt am Anfang und bewegt sich durch Übung vorwärts.
 
-![Ihre Fähigkeiten entwickeln](/code-with-ai/assets/images/diagrams/18-1-growing-skills.png)
+![Ihre Fähigkeiten entwickeln](/code-with-ai/assets/images/diagrams/de/18-1-growing-skills.png)
 {: .chapter-diagram}
 *Abbildung 18.1: Ihre Fähigkeiten entwickeln — Der Fortschritt*
 {: .diagram-caption}
@@ -42,7 +42,7 @@ Sie werden diese Phasen natürlich durchlaufen, während Sie mehr Projekte bauen
 
 Wenn Sie feststecken, ist es wichtig zu wissen, wo Sie Hilfe finden. Bauen Sie Ihr Werkzeugkit an Ressourcen auf.
 
-![Ressourcen](/code-with-ai/assets/images/diagrams/18-2-resources.png)
+![Ressourcen](/code-with-ai/assets/images/diagrams/de/18-2-resources.png)
 {: .chapter-diagram}
 *Abbildung 18.2: Ressourcen — Wo Sie Hilfe bekommen*
 {: .diagram-caption}
@@ -65,7 +65,7 @@ Wenn Sie feststecken, folgen Sie diesem Arbeitsablauf: zuerst KI fragen, dann im
 
 Nehmen Sie sich einen Moment Zeit, um zu würdigen, wie weit Sie gekommen sind.
 
-![Die Reise](/code-with-ai/assets/images/diagrams/18-3-the-journey.png)
+![Die Reise](/code-with-ai/assets/images/diagrams/de/18-3-the-journey.png)
 {: .chapter-diagram}
 *Abbildung 18.3: Die Reise — Wie weit Sie gekommen sind*
 {: .diagram-caption}
@@ -104,7 +104,7 @@ Starten Sie Ihre Reise:
 
 Alles aus diesem Tutorial an einem Ort.
 
-![Wichtigste Erkenntnisse](/code-with-ai/assets/images/diagrams/18-4-summary.png)
+![Wichtigste Erkenntnisse](/code-with-ai/assets/images/diagrams/de/18-4-summary.png)
 {: .chapter-diagram}
 *Abbildung 18.4: Wichtigste Erkenntnisse — Alles zusammengefasst*
 {: .diagram-caption}

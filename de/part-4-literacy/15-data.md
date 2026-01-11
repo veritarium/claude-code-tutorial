@@ -17,7 +17,7 @@ next_title: "Qualität"
 
 Datenstrukturen sind Wege, mehrere Datenstücke zu organisieren. Die Wahl der richtigen Struktur macht Ihren Code sauberer und schneller.
 
-![Datenstrukturen](/code-with-ai/assets/images/diagrams/15-1-data-structures.png)
+![Datenstrukturen](/code-with-ai/assets/images/diagrams/de/15-1-data-structures.png)
 {: .chapter-diagram}
 *Abbildung 15.1: Datenstrukturen — Daten organisieren*
 {: .diagram-caption}
@@ -40,7 +40,7 @@ Verwenden Sie eine Liste, wenn Sie eine Sammlung ähnlicher Elemente haben und h
 
 Dateien sind permanenter Speicher. Wenn Ihr Programm endet, verschwinden Variablen, aber Dateien bleiben bestehen. So speichern Sie Ergebnisse und laden Daten.
 
-![Dateien und I/O](/code-with-ai/assets/images/diagrams/15-2-files-io.png)
+![Dateien und I/O](/code-with-ai/assets/images/diagrams/de/15-2-files-io.png)
 {: .chapter-diagram}
 *Abbildung 15.2: Dateien und I/O — Permanenter Speicher*
 {: .diagram-caption}

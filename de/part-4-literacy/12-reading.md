@@ -17,7 +17,7 @@ Hier ist ein Geheimnis: Sie müssen keinen Code schreiben, um ihn zu verstehen.
 
 Code lesen ist wie ein Rezept lesen. Sie können folgen, ohne Koch zu sein. Sie können verstehen, was passiert, ohne zu wissen, wie man es von Grund auf erstellt. Diese Fähigkeit—Code lesen und verstehen—wird Ihnen dienen, selbst wenn Sie nie eine einzige Zeile selbst schreiben.
 
-![Code lesen lernen](/code-with-ai/assets/images/diagrams/12-1-learning-to-read.png)
+![Code lesen lernen](/code-with-ai/assets/images/diagrams/de/12-1-learning-to-read.png)
 {: .chapter-diagram}
 *Abbildung 12.1: Code lesen lernen — Worauf Sie achten sollten*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Machen Sie sich keine Sorgen über das Auswendiglernen von Syntax, das Verstehen
 
 Jedes Programm besteht aus denselben universellen Teilen. Sobald Sie diese Bausteine erkennen, können Sie jeden Code lesen.
 
-![Code-Anatomie](/code-with-ai/assets/images/diagrams/12-2-code-anatomy.png)
+![Code-Anatomie](/code-with-ai/assets/images/diagrams/de/12-2-code-anatomy.png)
 {: .chapter-diagram}
 *Abbildung 12.2: Code-Anatomie — Die universellen Teile*
 {: .diagram-caption}

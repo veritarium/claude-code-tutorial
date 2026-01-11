@@ -15,7 +15,7 @@ next_title: "Zerlegung"
 
 Alles, was Sie jemals mit KI-Programmierung tun werden, fällt in sechs Kategorien. Nur sechs. Sobald Sie sie erkennen, werden Sie nie wieder verwirrt sein, wonach Sie fragen sollen.
 
-![Sechs Operationen](/code-with-ai/assets/images/diagrams/03-1-six-operations.png)
+![Sechs Operationen](/code-with-ai/assets/images/diagrams/de/03-1-six-operations.png)
 {: .chapter-diagram}
 *Abbildung 3.1: Die sechs Operationen — Alles, was Sie mit KI tun können*
 {: .diagram-caption}

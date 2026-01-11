@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="50" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">DER KERN</text>
+  <text x="584" y="82" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Die fundamentale Partnerschaft zwischen Mensch und KI</text>
+
+  <!-- YOU Box -->
+  <rect x="60" y="110" width="340" height="500" fill="url(#deepBlue)"/>
+  <text x="230" y="155" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">DU</text>
+
+  <!-- YOU Cards -->
+  <rect x="80" y="175" width="300" height="90" fill="#ffffff"/>
+  <text x="95" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#091358">Problem</text>
+  <text x="95" y="245" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Was du lösen willst</text>
+
+  <rect x="80" y="275" width="300" height="90" fill="#ffffff"/>
+  <text x="95" y="315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#091358">Kontext</text>
+  <text x="95" y="345" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Hintergrund, den KI nicht sieht</text>
+
+  <rect x="80" y="375" width="300" height="90" fill="#ffffff"/>
+  <text x="95" y="415" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#091358">Absicht</text>
+  <text x="95" y="445" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Welches Ergebnis du willst</text>
+
+  <rect x="80" y="475" width="300" height="90" fill="#ffffff"/>
+  <text x="95" y="515" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#091358">Urteil</text>
+  <text x="95" y="545" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Ist das Ergebnis korrekt?</text>
+
+  <!-- AI Box -->
+  <rect x="768" y="110" width="340" height="500" fill="url(#aiPurple)"/>
+  <text x="938" y="155" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">KI</text>
+
+  <!-- AI Cards -->
+  <rect x="788" y="175" width="300" height="90" fill="#ffffff"/>
+  <text x="803" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Code</text>
+  <text x="803" y="245" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Jede Sprache, jede Syntax</text>
+
+  <rect x="788" y="275" width="300" height="90" fill="#ffffff"/>
+  <text x="803" y="315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Muster</text>
+  <text x="803" y="345" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Standardlösungen für Probleme</text>
+
+  <rect x="788" y="375" width="300" height="90" fill="#ffffff"/>
+  <text x="803" y="415" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Syntax</text>
+  <text x="803" y="445" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Exakte Struktur für Code</text>
+
+  <rect x="788" y="475" width="300" height="90" fill="#ffffff"/>
+  <text x="803" y="515" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Bibliotheken</text>
+  <text x="803" y="545" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Tausende vorgefertigte Werkzeuge</text>
+
+  <!-- PROMPT Box -->
+  <rect x="456" y="310" width="256" height="100" fill="url(#steelBlue)"/>
+  <text x="584" y="352" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">PROMPT</text>
+  <text x="584" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">Deine Worte werden Code</text>
+
+  <!-- Arrows to PROMPT -->
+  <path d="M 400 360 L 448 360" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="456,360 444,353 444,367" fill="#0d0829"/>
+
+  <path d="M 712 360 L 760 360" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="768,360 756,353 756,367" fill="#0d0829"/>
+
+  <!-- SOFTWARE Box -->
+  <rect x="424" y="700" width="320" height="100" fill="url(#darkNavy)"/>
+  <text x="584" y="742" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">SOFTWARE</text>
+  <text x="584" y="775" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-style="italic">Funktionierender Code, geliefert</text>
+
+  <!-- Arrows to SOFTWARE - from bottom of main boxes -->
+  <path d="M 230 610 L 230 750 L 416 750" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="424,750 412,743 412,757" fill="#0d0829"/>
+
+  <path d="M 938 610 L 938 750 L 752 750" stroke="#0d0829" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="744,750 756,743 756,757" fill="#0d0829"/>
+
+  <!-- Legend -->
+  <rect x="1020" y="700" width="24" height="24" fill="url(#deepBlue)"/>
+  <text x="1052" y="719" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">Du</text>
+
+  <rect x="1020" y="732" width="24" height="24" fill="url(#aiPurple)"/>
+  <text x="1052" y="751" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">KI</text>
+
+  <rect x="1020" y="764" width="24" height="24" fill="url(#steelBlue)"/>
+  <text x="1052" y="783" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">Prompt</text>
+
+  <rect x="1020" y="796" width="24" height="24" fill="url(#darkNavy)"/>
+  <text x="1052" y="815" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">Ausgabe</text>
+</svg>

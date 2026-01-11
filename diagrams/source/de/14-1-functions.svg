@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+      <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">FUNKTIONEN</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Reusable machines that do one job</text>
+
+  <!-- Analogy -->
+  <rect x="200" y="100" width="768" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">A function is like a machine: put something in, get something out</text>
+
+  <!-- Visual machine diagram -->
+  <rect x="100" y="200" width="400" height="250" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="300" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">The Machine</text>
+
+  <!-- Input -->
+  <rect x="130" y="280" width="80" height="50" fill="url(#steelBlue)"/>
+  <text x="170" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">INPUT</text>
+  <text x="170" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">force, area</text>
+
+  <!-- Arrow -->
+  <text x="225" y="310" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <!-- Machine box -->
+  <rect x="250" y="260" width="130" height="90" fill="url(#deepBlue)"/>
+  <text x="315" y="300" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">FUNCTION</text>
+  <text x="315" y="325" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">calculate_stress</text>
+
+  <!-- Arrow -->
+  <text x="395" y="310" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <!-- Output -->
+  <rect x="420" y="280" width="70" height="50" fill="url(#steelBlue)"/>
+  <text x="455" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">OUTPUT</text>
+  <text x="455" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">stress</text>
+
+  <!-- Usage note -->
+  <text x="300" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Call it anywhere, reuse forever</text>
+
+  <!-- Code example -->
+  <rect x="530" y="200" width="540" height="250" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="800" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Der Code</text>
+
+  <rect x="550" y="255" width="500" height="80" fill="#f5f5f5"/>
+  <text x="570" y="280" font-family="Courier, monospace" font-size="13" fill="#6882a1"># Define the function</text>
+  <text x="570" y="300" font-family="Courier, monospace" font-size="13" fill="#091358">def calculate_stress(force, area):</text>
+  <text x="590" y="320" font-family="Courier, monospace" font-size="13" fill="#0d0829">return force / area</text>
+
+  <rect x="550" y="350" width="500" height="60" fill="#f5f5f5"/>
+  <text x="570" y="375" font-family="Courier, monospace" font-size="13" fill="#6882a1"># Use the function</text>
+  <text x="570" y="395" font-family="Courier, monospace" font-size="13" fill="#0d0829">result = calculate_stress(1000, 4)</text>
+
+  <text x="800" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">result is now 250</text>
+
+  <!-- Benefits section -->
+  <rect x="100" y="480" width="300" height="200" fill="url(#deepBlue)"/>
+  <text x="250" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Why Use Functions?</text>
+  <rect x="120" y="540" width="260" height="120" fill="#ffffff"/>
+  <text x="140" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Reuse code (write once)</text>
+  <text x="140" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Organize logic (clear names)</text>
+  <text x="140" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Test easily (isolated units)</text>
+  <text x="140" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Fix in one place</text>
+
+  <!-- Parts section -->
+  <rect x="435" y="480" width="300" height="200" fill="url(#steelBlue)"/>
+  <text x="585" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Function Parts</text>
+  <rect x="455" y="540" width="260" height="120" fill="#ffffff"/>
+  <text x="475" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Name (what it does)</text>
+  <text x="475" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Parameters (inputs)</text>
+  <text x="475" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Body (the work)</text>
+  <text x="475" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Return (output)</text>
+
+  <!-- Ask AI section -->
+  <rect x="770" y="480" width="300" height="200" fill="url(#deepBlue)"/>
+  <text x="920" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Ask AI To...</text>
+  <rect x="790" y="540" width="260" height="120" fill="#ffffff"/>
+  <text x="810" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Erstelle eine Funktion, die..."</text>
+  <text x="810" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Explain this function"</text>
+  <text x="810" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"What does it return?"</text>
+  <text x="810" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Add error handling"</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Functions = Reusable building blocks of code</text>
+</svg>

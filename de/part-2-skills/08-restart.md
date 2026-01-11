@@ -15,7 +15,7 @@ next_title: "Häufige Fallen"
 
 Manchmal müssen Sie wissen, wann Sie aufhören sollten zu verfeinern und neu anfangen sollten.
 
-![Die Entscheidung](/code-with-ai/assets/images/diagrams/08-1-the-decision.png)
+![Die Entscheidung](/code-with-ai/assets/images/diagrams/de/08-1-the-decision.png)
 {: .chapter-diagram}
 *Abbildung 8.1: Die Entscheidung — Verfeinern oder neu starten?*
 {: .diagram-caption}
@@ -38,7 +38,7 @@ Der Sunk-Cost-Trugschluss ist hier stark. Sie haben Zeit in diese Konversation i
 
 Hier ist eine praktische Regel: maximal fünf Versuche, dann neu starten.
 
-![Die 5-Versuche-Regel](/code-with-ai/assets/images/diagrams/08-2-the-5-attempt-rule.png)
+![Die 5-Versuche-Regel](/code-with-ai/assets/images/diagrams/de/08-2-the-5-attempt-rule.png)
 {: .chapter-diagram}
 *Abbildung 8.2: Die 5-Versuche-Regel — Wissen, wann man Verluste begrenzt*
 {: .diagram-caption}
