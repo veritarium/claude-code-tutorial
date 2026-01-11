@@ -98,19 +98,20 @@
     .sidebar {
       position: fixed;
       top: 0;
-      left: -280px;
+      left: 0;
       width: 280px;
       height: 100vh;
       background: var(--gray);
       border-right: 1px solid var(--border);
       overflow-y: auto;
-      transition: left 0.3s ease;
+      transition: transform 0.3s ease;
       z-index: 99;
       padding: 1rem 0;
+      transform: translateX(-280px);
     }
 
     .sidebar.open {
-      left: 0;
+      transform: translateX(0);
       box-shadow: 2px 0 10px rgba(0,0,0,0.15);
     }
 
@@ -488,7 +489,7 @@
       }
 
       .menu-toggle {
-        display: none;
+        display: flex;
       }
 
       .sidebar {
@@ -496,6 +497,11 @@
         left: 0;
         top: 0;
         height: 100vh;
+        transform: translateX(0);
+      }
+
+      .sidebar.desktop-hidden {
+        transform: translateX(-280px);
       }
 
       .sidebar-overlay {
@@ -506,6 +512,16 @@
         margin-left: 280px;
         padding: 2rem 3rem;
         max-width: 800px;
+        transition: margin-left 0.3s ease;
+      }
+
+      .main-content.sidebar-hidden {
+        margin-left: 0;
+      }
+
+      .site-header {
+        position: relative;
+        z-index: 100;
       }
 
       h1 {
@@ -654,9 +670,22 @@
   </main>
 
   <script>
+    function isDesktop() {
+      return window.innerWidth >= 768;
+    }
+
     function toggleSidebar() {
-      document.getElementById('sidebar').classList.toggle('open');
-      document.getElementById('overlay').classList.toggle('open');
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.querySelector('.main-content');
+      const overlay = document.getElementById('overlay');
+
+      if (isDesktop()) {
+        sidebar.classList.toggle('desktop-hidden');
+        if (mainContent) mainContent.classList.toggle('sidebar-hidden');
+      } else {
+        sidebar.classList.toggle('open');
+        overlay.classList.toggle('open');
+      }
     }
 
     function closeSidebar() {
