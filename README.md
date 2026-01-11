@@ -1,96 +1,66 @@
-# Code with AI
+# From Non-Coder to Builder
 
-A visual tutorial for smart people who don't code yet.
+**Coding with AI for Engineers** — A visual tutorial for smart people who don't code yet.
 
-**How to use this:** Study the drawings. Text explains what you see.
+🌐 **[View the Tutorial](https://veritarium.github.io/code-with-ai/)**
 
 ---
 
-## Setup
+## What This Is
+
+A complete tutorial teaching mechanical engineers (and other non-coders) how to build software using AI as a coding partner. No programming experience required.
+
+## Contents
+
+### Part 1: Foundations
+- Chapter 1: The Core Partnership
+- Chapter 2: The Loop
+- Chapter 3: Six Operations
+
+### Part 2: Skills
+- Chapter 4: Decomposition
+- Chapter 5: Precision
+- Chapter 6: Feedback
+- Chapter 7: Context
+- Chapter 8: When to Restart
+
+### Part 3: Problems
+- Chapter 9: Common Pitfalls
+- Chapter 10: Debugging
+- Chapter 11: Getting Unstuck
+
+### Part 4: Code Literacy
+- Chapter 12: Reading Code
+- Chapter 13: Core Concepts
+- Chapter 14: Functions & Libraries
+- Chapter 15: Data and Files
+- Chapter 16: Quality
+
+### Part 5: Building
+- Chapter 17: Your First Project
+- Chapter 18: Moving Forward
+
+---
+
+## Downloads
+
+- [Cheat Sheet (PDF)](Cheat-Sheet.pdf) — One-page quick reference
+- [Full Presentation (PDF)](From-NonCoder-to-Builder.pdf) — All 36 diagrams
+- [PowerPoint](From-NonCoder-to-Builder.pptx) — Presentation with speaker notes
+
+---
+
+## Quick Start
 
 ```bash
 npm install -g @anthropic-ai/claude-code
 claude
 ```
 
----
-
-## Part 1: Foundations
-
-*The mental models. Understand these and everything else makes sense.*
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 01 | [The Core](drawings/01-the-core.md) | How you and AI collaborate |
-| 02 | [The Loop](drawings/02-the-loop.md) | The work cycle: describe → get → run → refine |
-| 03 | [Decomposition](drawings/03-decomposition.md) | Breaking big into small |
-| 04 | [Operations](drawings/04-operations.md) | The six things you can do |
+Then start with [Chapter 1: The Core Partnership](https://veritarium.github.io/code-with-ai/part-1-foundations/01-core).
 
 ---
 
-## Part 2: Mastery
+## License
 
-*The skills that separate good from great.*
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 05 | [Context](drawings/05-context.md) | What AI can and cannot see |
-| 06 | [Specificity](drawings/06-specificity.md) | Precision in, precision out |
-| 07 | [Iteration](drawings/07-iteration.md) | How to refine effectively |
-
----
-
-## Part 3: Patterns
-
-*Reusable shapes. Recognize the pattern, apply it to your problem.*
-
-### Building
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 08 | [Data Pipeline](drawings/08-pattern-pipeline.md) | Processing data from input to output |
-| 09 | [Web App](drawings/09-pattern-webapp.md) | Building interactive applications |
-| 10 | [Build Incrementally](drawings/10-build-incrementally.md) | Small verified steps |
-
-### Connecting
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 11 | [Automation](drawings/11-pattern-automation.md) | Triggers, actions, scheduled tasks |
-| 12 | [API](drawings/12-pattern-api.md) | Request/response, endpoints, CRUD |
-
-### Quality
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 13 | [Debugging](drawings/13-pattern-debugging.md) | Finding and fixing problems |
-| 14 | [Testing](drawings/14-pattern-testing.md) | Verifying code works correctly |
-
-### Domain
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 15 | [Engineering Calculation](drawings/15-pattern-engineering-calc.md) | Formulas, units, design checks |
-
-### Capstone
-
-| # | Drawing | What You Learn |
-|---|---------|----------------|
-| 16 | [Complete Project](drawings/16-complete-project.md) | Idea to working software |
-
----
-
-## Quick Reference
-
-| Do This | Say This |
-|---------|----------|
-| Create | `Create [file] that [does what]` |
-| Read | `Show me [file]` |
-| Edit | `In [file], change [X] to [Y]` |
-| Run | `Run [file]` |
-| Fix | `[error]. Fix it.` |
-| Extend | `Add [feature] to [file]` |
-
----
-
-Start with [Drawing 01: The Core](drawings/01-the-core.md).
+MIT
