@@ -1,8 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
-    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d0829"/>
-      <stop offset="100%" style="stop-color:#091358"/>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
     </linearGradient>
 
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -10,14 +15,19 @@
       <stop offset="100%" style="stop-color:#0d0829"/>
     </linearGradient>
 
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
+    </linearGradient>
+
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#7a94b3"/>
       <stop offset="100%" style="stop-color:#6882a1"/>
     </linearGradient>
 
-    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b60002"/>
-      <stop offset="100%" style="stop-color:#690308"/>
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
     </linearGradient>
   </defs>
 
@@ -50,24 +60,24 @@
   <text x="95" y="545" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Is the result correct?</text>
 
   <!-- AI Box -->
-  <rect x="768" y="110" width="340" height="500" fill="url(#brightRed)"/>
+  <rect x="768" y="110" width="340" height="500" fill="url(#aiPurple)"/>
   <text x="938" y="155" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">AI</text>
 
   <!-- AI Cards -->
   <rect x="788" y="175" width="300" height="90" fill="#ffffff"/>
-  <text x="803" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#b60002">Code</text>
+  <text x="803" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Code</text>
   <text x="803" y="245" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Every language, every syntax</text>
 
   <rect x="788" y="275" width="300" height="90" fill="#ffffff"/>
-  <text x="803" y="315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#b60002">Patterns</text>
+  <text x="803" y="315" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Patterns</text>
   <text x="803" y="345" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Standard solutions to problems</text>
 
   <rect x="788" y="375" width="300" height="90" fill="#ffffff"/>
-  <text x="803" y="415" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#b60002">Syntax</text>
+  <text x="803" y="415" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Syntax</text>
   <text x="803" y="445" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Exact structure code needs</text>
 
   <rect x="788" y="475" width="300" height="90" fill="#ffffff"/>
-  <text x="803" y="515" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#b60002">Libraries</text>
+  <text x="803" y="515" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b21a8">Libraries</text>
   <text x="803" y="545" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6882a1" font-style="italic">Thousands of pre-built tools</text>
 
   <!-- PROMPT Box -->
@@ -98,7 +108,7 @@
   <rect x="1020" y="700" width="24" height="24" fill="url(#deepBlue)"/>
   <text x="1052" y="719" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">You</text>
 
-  <rect x="1020" y="732" width="24" height="24" fill="url(#brightRed)"/>
+  <rect x="1020" y="732" width="24" height="24" fill="url(#aiPurple)"/>
   <text x="1052" y="751" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1">AI</text>
 
   <rect x="1020" y="764" width="24" height="24" fill="url(#steelBlue)"/>

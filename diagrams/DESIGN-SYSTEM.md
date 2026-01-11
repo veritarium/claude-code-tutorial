@@ -1,7 +1,7 @@
 # Diagram Design System
 
 Professional technical illustration standards for AI coding tutorial.
-Corporate style with navy blue, red, and steel accents.
+Corporate style with semantic colors: green for good, red for bad.
 
 ---
 
@@ -10,15 +10,27 @@ Corporate style with navy blue, red, and steel accents.
 **Core Elements (consistent across ALL diagrams):**
 
 ```
+GOOD / SUCCESS: Green gradient
+                Primary:  #0a7c42
+                Dark:     #065a2f
+                Light:    #e8f5ed (background tint)
+                Label:    #0a7c42 (on white cards)
+
+BAD / ERROR:    Red gradient
+                Primary:  #b60002
+                Dark:     #690308
+                Light:    #fff5f5 (background tint)
+                Label:    #b60002 (on white cards)
+
 YOU / USER:     Deep Blue gradient
                 Primary:  #091358
                 Dark:     #0d0829
                 Label:    #091358 (on white cards)
 
-AI:             Red gradient
-                Primary:  #b60002
-                Dark:     #690308
-                Label:    #b60002 (on white cards)
+AI:             Purple gradient (neutral, not good or bad)
+                Primary:  #6b21a8
+                Dark:     #4c1d6d
+                Label:    #6b21a8 (on white cards)
 
 PROMPT:         Steel Blue gradient
                 Primary:  #6882a1
@@ -150,14 +162,24 @@ Arrowhead:       Triangle polygon, filled #0d0829
 ## SVG Gradient Definitions
 
 ```svg
+<linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:#0a7c42"/>
+  <stop offset="100%" style="stop-color:#065a2f"/>
+</linearGradient>
+
+<linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:#b60002"/>
+  <stop offset="100%" style="stop-color:#690308"/>
+</linearGradient>
+
 <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
   <stop offset="0%" style="stop-color:#091358"/>
   <stop offset="100%" style="stop-color:#0d0829"/>
 </linearGradient>
 
-<linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-  <stop offset="0%" style="stop-color:#b60002"/>
-  <stop offset="100%" style="stop-color:#690308"/>
+<linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:#6b21a8"/>
+  <stop offset="100%" style="stop-color:#4c1d6d"/>
 </linearGradient>
 
 <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">

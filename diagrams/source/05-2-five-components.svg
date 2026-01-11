@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -24,12 +39,12 @@
   <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">The building blocks of a precise prompt</text>
 
   <!-- Component 1: WHAT -->
-  <rect x="60" y="110" width="500" height="110" fill="url(#deepBlue)"/>
+  <rect x="60" y="110" width="500" height="110" fill="url(#goodGreen)"/>
   <text x="85" y="150" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">1. WHAT</text>
   <text x="85" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff">The action you want</text>
   <rect x="320" y="125" width="220" height="70" fill="#ffffff"/>
-  <text x="430" y="158" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle" font-style="italic">"Create a function"</text>
-  <text x="430" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle" font-style="italic">"Fix this error"</text>
+  <text x="430" y="158" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle" font-style="italic">"Create a function"</text>
+  <text x="430" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle" font-style="italic">"Fix this error"</text>
 
   <!-- Component 2: WHERE -->
   <rect x="608" y="110" width="500" height="110" fill="url(#steelBlue)"/>
@@ -48,12 +63,12 @@
   <text x="430" y="310" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle" font-style="italic">"With error handling"</text>
 
   <!-- Component 4: WHY -->
-  <rect x="608" y="240" width="500" height="110" fill="url(#deepBlue)"/>
+  <rect x="608" y="240" width="500" height="110" fill="url(#goodGreen)"/>
   <text x="633" y="280" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">4. WHY</text>
   <text x="633" y="310" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff">The purpose or context</text>
   <rect x="868" y="255" width="220" height="70" fill="#ffffff"/>
-  <text x="978" y="288" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle" font-style="italic">"To improve performance"</text>
-  <text x="978" y="310" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle" font-style="italic">"For user validation"</text>
+  <text x="978" y="288" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle" font-style="italic">"To improve performance"</text>
+  <text x="978" y="310" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle" font-style="italic">"For user validation"</text>
 
   <!-- Component 5: EXAMPLE -->
   <rect x="334" y="370" width="500" height="110" fill="url(#darkNavy)"/>
@@ -64,10 +79,10 @@
   <text x="704" y="440" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829" text-anchor="middle" font-style="italic">"Output: 6"</text>
 
   <!-- Combined example -->
-  <rect x="100" y="510" width="968" height="180" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="584" y="545" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Complete Prompt Example</text>
+  <rect x="100" y="510" width="968" height="180" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <text x="584" y="545" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0a7c42" text-anchor="middle">Complete Prompt Example</text>
 
-  <text x="140" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">WHAT:</text>
+  <text x="140" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42" font-weight="bold">WHAT:</text>
   <text x="200" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">"Create a function"</text>
 
   <text x="420" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" font-weight="bold">WHERE:</text>
@@ -76,7 +91,7 @@
   <text x="650" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" font-weight="bold">HOW:</text>
   <text x="700" y="585" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">"using recursion"</text>
 
-  <text x="140" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">WHY:</text>
+  <text x="140" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0a7c42" font-weight="bold">WHY:</text>
   <text x="185" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">"to calculate factorials for the stats module"</text>
 
   <text x="140" y="655" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" font-weight="bold">EXAMPLE:</text>

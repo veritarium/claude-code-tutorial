@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -36,8 +51,8 @@
   <text x="100" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">What should it do?</text>
   <text x="100" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">What inputs/outputs?</text>
   <text x="100" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">What's the simplest version?</text>
-  <text x="185" y="400" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Write it in one sentence</text>
-  <text x="185" y="430" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">before coding</text>
+  <text x="185" y="400" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Write it in one sentence</text>
+  <text x="185" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">before coding</text>
 
   <!-- Arrow -->
   <text x="330" y="330" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
@@ -50,8 +65,8 @@
   <text x="405" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Start with core feature</text>
   <text x="405" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Test as you go</text>
   <text x="405" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Add features one by one</text>
-  <text x="490" y="400" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6882a1" text-anchor="middle" font-style="italic">Get it working before</text>
-  <text x="490" y="430" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6882a1" text-anchor="middle" font-style="italic">making it perfect</text>
+  <text x="490" y="400" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Get it working before</text>
+  <text x="490" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">making it perfect</text>
 
   <!-- Arrow -->
   <text x="635" y="330" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
@@ -64,8 +79,8 @@
   <text x="710" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Handle edge cases</text>
   <text x="710" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Add error messages</text>
   <text x="710" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Clean up code</text>
-  <text x="795" y="400" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Ask AI to review</text>
-  <text x="795" y="430" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">and improve</text>
+  <text x="795" y="400" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Ask AI to review</text>
+  <text x="795" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">and improve</text>
 
   <!-- Example project -->
   <rect x="100" y="500" width="968" height="180" fill="#ffffff" stroke="#091358" stroke-width="2"/>

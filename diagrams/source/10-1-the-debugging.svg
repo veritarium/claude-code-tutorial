@@ -1,13 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
     </linearGradient>
 
-    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b60002"/>
-      <stop offset="100%" style="stop-color:#690308"/>
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -45,7 +55,7 @@
   <text x="630" y="160" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
 
   <!-- Step 3 -->
-  <rect x="660" y="110" width="250" height="100" fill="url(#deepBlue)"/>
+  <rect x="660" y="110" width="250" height="100" fill="url(#goodGreen)"/>
   <text x="785" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">3. CONTEXT</text>
   <text x="785" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Include surrounding code</text>
 
@@ -62,7 +72,7 @@
   <text x="630" y="330" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">←</text>
 
   <!-- Step 5 -->
-  <rect x="360" y="280" width="250" height="100" fill="url(#deepBlue)"/>
+  <rect x="360" y="280" width="250" height="100" fill="url(#goodGreen)"/>
   <text x="485" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">5. APPLY</text>
   <text x="485" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Make the fix</text>
 
@@ -85,15 +95,15 @@
   <text x="80" y="595" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Missing: what it should do</text>
   <text x="310" y="650" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#b60002" text-anchor="middle">Result: AI will guess wrong</text>
 
-  <rect x="608" y="420" width="500" height="260" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="858" y="455" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Good Debug Request</text>
+  <rect x="608" y="420" width="500" height="260" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <text x="858" y="455" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0a7c42" text-anchor="middle">Good Debug Request</text>
 
   <text x="628" y="490" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Error: TypeError on line 15"</text>
   <text x="628" y="515" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Here's lines 10-20: [code]"</text>
   <text x="628" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Input was: [1, 2, None]"</text>
   <text x="628" y="565" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Expected: sum of numbers"</text>
   <text x="628" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Should skip None values"</text>
-  <text x="858" y="650" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">Result: Precise fix provided</text>
+  <text x="858" y="650" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0a7c42" text-anchor="middle">Result: Precise fix provided</text>
 
   <!-- Bottom summary -->
   <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>

@@ -1,13 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
     </linearGradient>
 
-    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b60002"/>
-      <stop offset="100%" style="stop-color:#690308"/>
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -44,7 +54,7 @@
 
   <!-- AI'S WINDOW - Smaller inner box -->
   <rect x="200" y="290" width="400" height="250" fill="#ffffff" stroke="#b60002" stroke-width="4"/>
-  <text x="400" y="325" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#b60002" text-anchor="middle">AI'S WINDOW</text>
+  <text x="400" y="325" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#6b21a8" text-anchor="middle">AI'S WINDOW</text>
   <text x="400" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle" font-style="italic">Only sees what's in the prompt</text>
 
   <!-- What AI CAN see -->
@@ -64,7 +74,7 @@
   <text x="870" y="285" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Read your mind</text>
   <text x="870" y="320" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" font-style="italic">Unless you tell it!</text>
 
-  <rect x="850" y="380" width="260" height="250" fill="url(#brightRed)"/>
+  <rect x="850" y="380" width="260" height="250" fill="url(#aiPurple)"/>
   <text x="980" y="420" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">SO YOU MUST:</text>
   <text x="870" y="455" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Paste relevant code</text>
   <text x="870" y="480" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Share error messages</text>

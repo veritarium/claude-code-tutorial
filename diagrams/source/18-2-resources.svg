@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -33,7 +48,7 @@
   <text x="100" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Good for code generation</text>
   <text x="100" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">GitHub Copilot</text>
   <text x="100" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">In-editor assistance</text>
-  <text x="225" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Use what works for you</text>
+  <text x="225" y="350" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Use what works for you</text>
 
   <!-- Learning -->
   <rect x="420" y="110" width="330" height="270" fill="url(#steelBlue)"/>
@@ -45,7 +60,7 @@
   <text x="460" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Q&amp;A for specific errors</text>
   <text x="460" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">YouTube tutorials</text>
   <text x="460" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Visual learning</text>
-  <text x="585" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6882a1" text-anchor="middle" font-style="italic">Search when stuck</text>
+  <text x="585" y="350" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Search when stuck</text>
 
   <!-- Practice -->
   <rect x="780" y="110" width="330" height="270" fill="url(#deepBlue)"/>
@@ -57,7 +72,7 @@
   <text x="820" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Create charts from data</text>
   <text x="820" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">File processing</text>
   <text x="820" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Batch convert/rename</text>
-  <text x="945" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Solve real problems</text>
+  <text x="945" y="350" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Solve real problems</text>
 
   <!-- When stuck workflow -->
   <rect x="100" y="410" width="968" height="200" fill="#ffffff" stroke="#091358" stroke-width="2"/>

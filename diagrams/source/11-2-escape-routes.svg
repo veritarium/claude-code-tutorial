@@ -1,13 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
     </linearGradient>
 
-    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b60002"/>
-      <stop offset="100%" style="stop-color:#690308"/>
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -29,10 +39,10 @@
   <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Six ways to get unstuck</text>
 
   <!-- Route 1 -->
-  <rect x="60" y="110" width="330" height="170" fill="url(#deepBlue)"/>
+  <rect x="60" y="110" width="330" height="170" fill="url(#goodGreen)"/>
   <text x="225" y="145" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">1. START FRESH</text>
   <rect x="80" y="160" width="290" height="100" fill="#ffffff"/>
-  <text x="225" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle">New conversation, new prompt</text>
+  <text x="225" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle">New conversation, new prompt</text>
   <text x="225" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Clears context clutter</text>
   <text x="225" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Fresh perspective</text>
 
@@ -45,10 +55,10 @@
   <text x="585" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Combine when working</text>
 
   <!-- Route 3 -->
-  <rect x="780" y="110" width="330" height="170" fill="url(#deepBlue)"/>
+  <rect x="780" y="110" width="330" height="170" fill="url(#goodGreen)"/>
   <text x="945" y="145" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">3. ADD CONTEXT</text>
   <rect x="800" y="160" width="290" height="100" fill="#ffffff"/>
-  <text x="945" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle">Share more information</text>
+  <text x="945" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle">Share more information</text>
   <text x="945" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Full error messages</text>
   <text x="945" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Related files, examples</text>
 
@@ -61,10 +71,10 @@
   <text x="225" y="435" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Focus on different aspect</text>
 
   <!-- Route 5 -->
-  <rect x="420" y="310" width="330" height="170" fill="url(#deepBlue)"/>
+  <rect x="420" y="310" width="330" height="170" fill="url(#goodGreen)"/>
   <text x="585" y="345" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">5. ASK WHY</text>
   <rect x="440" y="360" width="290" height="100" fill="#ffffff"/>
-  <text x="585" y="385" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" text-anchor="middle">Get AI to explain the error</text>
+  <text x="585" y="385" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42" text-anchor="middle">Get AI to explain the error</text>
   <text x="585" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">"Why is this happening?"</text>
   <text x="585" y="435" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">"What causes this?"</text>
 
@@ -77,8 +87,8 @@
   <text x="945" y="435" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Add complexity later</text>
 
   <!-- Decision flowchart -->
-  <rect x="150" y="510" width="868" height="170" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="584" y="545" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Quick Decision Guide</text>
+  <rect x="150" y="510" width="868" height="170" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
+  <text x="584" y="545" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0a7c42" text-anchor="middle">Quick Decision Guide</text>
 
   <text x="230" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829" text-anchor="middle">Same error over and over?</text>
   <text x="230" y="615" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Try: Start Fresh</text>

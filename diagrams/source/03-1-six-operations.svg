@@ -1,13 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-  <defs>
+    <defs>
+    <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a7c42"/>
+      <stop offset="100%" style="stop-color:#065a2f"/>
+    </linearGradient>
+
+    <linearGradient id="badRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
     <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#091358"/>
       <stop offset="100%" style="stop-color:#0d0829"/>
     </linearGradient>
 
-    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b60002"/>
-      <stop offset="100%" style="stop-color:#690308"/>
+    <linearGradient id="aiPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8"/>
+      <stop offset="100%" style="stop-color:#4c1d6d"/>
     </linearGradient>
 
     <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -40,8 +50,8 @@
   <text x="120" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Intent</text>
   <path d="M 168 215 L 200 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="208,215 196,208 196,222" fill="#0d0829"/>
-  <rect x="216" y="200" width="50" height="30" fill="url(#brightRed)"/>
-  <text x="241" y="220" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">AI</text>
+  <rect x="216" y="200" width="50" height="30" fill="url(#aiPurple)"/>
+  <text x="241" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">AI</text>
   <path d="M 274 215 L 298 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="306,215 294,208 294,222" fill="#0d0829"/>
   <rect x="314" y="195" width="70" height="40" fill="url(#darkNavy)"/>
@@ -58,12 +68,12 @@
   <text x="470" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">File</text>
   <path d="M 513 215 L 545 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="553,215 541,208 541,222" fill="#0d0829"/>
-  <rect x="561" y="200" width="50" height="30" fill="url(#brightRed)"/>
-  <text x="586" y="220" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">AI</text>
+  <rect x="561" y="200" width="50" height="30" fill="url(#aiPurple)"/>
+  <text x="586" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">AI</text>
   <path d="M 619 215 L 643 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="651,215 639,208 639,222" fill="#0d0829"/>
   <rect x="659" y="195" width="80" height="40" fill="url(#darkNavy)"/>
-  <text x="699" y="220" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Understand</text>
+  <text x="699" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Understand</text>
   <text x="555" y="280" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Learn existing code</text>
 
   <!-- 3. EDIT -->
@@ -73,16 +83,16 @@
   <text x="790" y="170" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">"Change the timeout to 30s"</text>
   <!-- Flow: File+Change → AI → Updated -->
   <rect x="790" y="195" width="80" height="40" fill="url(#steelBlue)"/>
-  <text x="830" y="213" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">File +</text>
-  <text x="830" y="227" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Change</text>
+  <text x="830" y="213" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">File +</text>
+  <text x="830" y="227" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Change</text>
   <path d="M 878 215 L 910 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="918,215 906,208 906,222" fill="#0d0829"/>
-  <rect x="926" y="200" width="50" height="30" fill="url(#brightRed)"/>
-  <text x="951" y="220" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">AI</text>
+  <rect x="926" y="200" width="50" height="30" fill="url(#aiPurple)"/>
+  <text x="951" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">AI</text>
   <path d="M 984 215 L 1008 215" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="1016,215 1004,208 1004,222" fill="#0d0829"/>
   <rect x="1024" y="195" width="70" height="40" fill="url(#darkNavy)"/>
-  <text x="1059" y="220" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Updated</text>
+  <text x="1059" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Updated</text>
   <text x="910" y="280" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Modify existing</text>
 
   <!-- Row 2 -->
@@ -94,11 +104,11 @@
   <text x="80" y="390" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">"Run the server"</text>
   <!-- Flow: Command → Exec → Output -->
   <rect x="80" y="415" width="80" height="40" fill="url(#steelBlue)"/>
-  <text x="120" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Command</text>
+  <text x="120" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Command</text>
   <path d="M 168 435 L 200 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="208,435 196,428 196,442" fill="#0d0829"/>
   <rect x="216" y="420" width="50" height="30" fill="url(#steelBlue)"/>
-  <text x="241" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Exec</text>
+  <text x="241" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Exec</text>
   <path d="M 274 435 L 298 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="306,435 294,428 294,442" fill="#0d0829"/>
   <rect x="314" y="415" width="70" height="40" fill="url(#darkNavy)"/>
@@ -115,8 +125,8 @@
   <text x="470" y="440" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Error</text>
   <path d="M 513 435 L 545 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="553,435 541,428 541,442" fill="#0d0829"/>
-  <rect x="561" y="420" width="50" height="30" fill="url(#brightRed)"/>
-  <text x="586" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">AI</text>
+  <rect x="561" y="420" width="50" height="30" fill="url(#aiPurple)"/>
+  <text x="586" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">AI</text>
   <path d="M 619 435 L 643 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="651,435 639,428 639,442" fill="#0d0829"/>
   <rect x="659" y="415" width="80" height="40" fill="url(#darkNavy)"/>
@@ -130,16 +140,16 @@
   <text x="790" y="390" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">"Add logging to this function"</text>
   <!-- Flow: Existing → AI → Enhanced -->
   <rect x="790" y="415" width="80" height="40" fill="url(#steelBlue)"/>
-  <text x="830" y="433" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Existing +</text>
-  <text x="830" y="447" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Request</text>
+  <text x="830" y="433" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Existing +</text>
+  <text x="830" y="447" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Request</text>
   <path d="M 878 435 L 910 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="918,435 906,428 906,442" fill="#0d0829"/>
-  <rect x="926" y="420" width="50" height="30" fill="url(#brightRed)"/>
-  <text x="951" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">AI</text>
+  <rect x="926" y="420" width="50" height="30" fill="url(#aiPurple)"/>
+  <text x="951" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">AI</text>
   <path d="M 984 435 L 1008 435" stroke="#0d0829" stroke-width="2" fill="none"/>
   <polygon points="1016,435 1004,428 1004,442" fill="#0d0829"/>
   <rect x="1024" y="415" width="70" height="40" fill="url(#darkNavy)"/>
-  <text x="1059" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Enhanced</text>
+  <text x="1059" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Enhanced</text>
   <text x="910" y="500" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Add features</text>
 
   <!-- Bottom insight -->
@@ -150,7 +160,7 @@
   <rect x="60" y="680" width="24" height="24" fill="url(#steelBlue)"/>
   <text x="92" y="699" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Input (You provide)</text>
 
-  <rect x="280" y="680" width="24" height="24" fill="url(#brightRed)"/>
+  <rect x="280" y="680" width="24" height="24" fill="url(#aiPurple)"/>
   <text x="312" y="699" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">AI Processing</text>
 
   <rect x="480" y="680" width="24" height="24" fill="url(#darkNavy)"/>
