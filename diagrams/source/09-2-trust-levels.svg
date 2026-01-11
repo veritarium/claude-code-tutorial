@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
-    <defs>
+      <defs>
     <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a7c42"/>
       <stop offset="100%" style="stop-color:#065a2f"/>
@@ -45,7 +45,7 @@
   <text x="918" y="142" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a5f1a" text-anchor="middle">HIGH TRUST</text>
 
   <!-- Gradient bar -->
-    <defs>
+      <defs>
     <linearGradient id="goodGreen" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a7c42"/>
       <stop offset="100%" style="stop-color:#065a2f"/>
