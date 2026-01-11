@@ -5,6 +5,21 @@ url: "https://veritarium.github.io"
 theme: jekyll-theme-primer
 markdown: GFM
 
+# Language configuration
+languages:
+  en:
+    label: "English"
+    title: "From Non-Coder to Builder"
+    dir: "ltr"
+  de:
+    label: "Deutsch"
+    title: "Vom Nicht-Programmierer zum Builder"
+    dir: "ltr"
+  fa:
+    label: "فارسی"
+    title: "از غیربرنامه‌نویس به سازنده"
+    dir: "rtl"
+
 exclude:
   - README.md
   - VISION.md
@@ -13,3 +28,4 @@ exclude:
   - diagrams/
   - From-NonCoder-to-Builder.pptx
   - From-NonCoder-to-Builder.pdf
+  - scripts/
