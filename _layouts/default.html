@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer-css/21.0.7/primer.min.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #24292e;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .site-header {
+      background: #0d0829;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+    }
+    .site-header a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .site-header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .site-nav {
+      margin-top: 0.5rem;
+    }
+    .site-nav a {
+      color: #6882a1;
+      margin-right: 1.5rem;
+      font-size: 0.9rem;
+    }
+    .site-nav a:hover {
+      color: #ffffff;
+    }
+    .chapter-diagram {
+      display: block;
+      margin: 2rem auto;
+      max-width: 100%;
+      border: 1px solid #e1e4e8;
+    }
+    .diagram-caption {
+      text-align: center;
+      font-style: italic;
+      color: #6882a1;
+      margin-top: -1rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+    .key-insight {
+      background: #f6f8fa;
+      border-left: 4px solid #091358;
+      padding: 1rem 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .key-insight strong {
+      color: #091358;
+    }
+    h1 { color: #0d0829; }
+    h2 { color: #091358; border-bottom: 1px solid #e1e4e8; padding-bottom: 0.5rem; }
+    h3 { color: #6882a1; }
+    code {
+      background: #f6f8fa;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    pre {
+      background: #f6f8fa;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    pre code {
+      padding: 0;
+      background: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #e1e4e8;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background: #f6f8fa;
+    }
+    .btn-primary {
+      background: #091358;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn-primary:hover {
+      background: #0d0829;
+      color: #ffffff;
+    }
+    .chapter-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5rem 0;
+      border-top: 1px solid #e1e4e8;
+      margin-top: 3rem;
+    }
+    .chapter-nav a {
+      color: #091358;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .chapter-nav a:hover {
+      text-decoration: underline;
+    }
+    .breadcrumb {
+      color: #6882a1;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .breadcrumb a {
+      color: #091358;
+    }
+    .part-header {
+      background: linear-gradient(135deg, #091358, #0d0829);
+      color: #ffffff;
+      padding: 2rem;
+      margin: -2rem -2rem 2rem -2rem;
+    }
+    .part-header h1 {
+      color: #ffffff;
+      margin: 0;
+    }
+    .part-header p {
+      color: #6882a1;
+      margin: 0.5rem 0 0 0;
+    }
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e1e4e8;
+      color: #6882a1;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+      .part-header {
+        margin: -1rem -1rem 1rem -1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">From Non-Coder to Builder</a></h1>
+      <nav class="site-nav">
+        <a href="{{ '/part-1-foundations/' | relative_url }}">Foundations</a>
+        <a href="{{ '/part-2-skills/' | relative_url }}">Skills</a>
+        <a href="{{ '/part-3-pitfalls/' | relative_url }}">Pitfalls</a>
+        <a href="{{ '/part-4-literacy/' | relative_url }}">Code Literacy</a>
+        <a href="{{ '/part-5-building/' | relative_url }}">Building</a>
+        <a href="{{ '/cheatsheet' | relative_url }}">Cheat Sheet</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="container">
+    <p>From Non-Coder to Builder: Coding with AI for Engineers</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">THE DEBUGGING FLOW</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">A systematic approach to fixing errors with AI</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="110" width="250" height="100" fill="url(#brightRed)"/>
+  <text x="185" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">1. CAPTURE</text>
+  <text x="185" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Copy the exact error</text>
+
+  <!-- Arrow -->
+  <text x="330" y="160" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
+
+  <!-- Step 2 -->
+  <rect x="360" y="110" width="250" height="100" fill="url(#steelBlue)"/>
+  <text x="485" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">2. LOCATE</text>
+  <text x="485" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Find the problem line</text>
+
+  <!-- Arrow -->
+  <text x="630" y="160" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
+
+  <!-- Step 3 -->
+  <rect x="660" y="110" width="250" height="100" fill="url(#deepBlue)"/>
+  <text x="785" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">3. CONTEXT</text>
+  <text x="785" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Include surrounding code</text>
+
+  <!-- Arrow down -->
+  <line x1="785" y1="210" x2="785" y2="260" stroke="#6882a1" stroke-width="3"/>
+  <polygon points="785,270 775,255 795,255" fill="#6882a1"/>
+
+  <!-- Step 4 -->
+  <rect x="660" y="280" width="250" height="100" fill="url(#steelBlue)"/>
+  <text x="785" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">4. ASK</text>
+  <text x="785" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Send to AI with context</text>
+
+  <!-- Arrow left -->
+  <text x="630" y="330" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">←</text>
+
+  <!-- Step 5 -->
+  <rect x="360" y="280" width="250" height="100" fill="url(#deepBlue)"/>
+  <text x="485" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">5. APPLY</text>
+  <text x="485" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Make the fix</text>
+
+  <!-- Arrow left -->
+  <text x="330" y="330" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">←</text>
+
+  <!-- Step 6 -->
+  <rect x="60" y="280" width="250" height="100" fill="url(#brightRed)"/>
+  <text x="185" y="320" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">6. TEST</text>
+  <text x="185" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Verify it's fixed</text>
+
+  <!-- Example section -->
+  <rect x="60" y="420" width="500" height="260" fill="#ffffff" stroke="#b60002" stroke-width="2"/>
+  <text x="310" y="455" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#b60002" text-anchor="middle">Bad Debug Request</text>
+
+  <text x="80" y="490" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"My code doesn't work, fix it"</text>
+  <text x="80" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Missing: error message</text>
+  <text x="80" y="545" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Missing: which line fails</text>
+  <text x="80" y="570" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Missing: relevant code</text>
+  <text x="80" y="595" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Missing: what it should do</text>
+  <text x="310" y="650" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#b60002" text-anchor="middle">Result: AI will guess wrong</text>
+
+  <rect x="608" y="420" width="500" height="260" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="858" y="455" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Good Debug Request</text>
+
+  <text x="628" y="490" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Error: TypeError on line 15"</text>
+  <text x="628" y="515" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Here's lines 10-20: [code]"</text>
+  <text x="628" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Input was: [1, 2, None]"</text>
+  <text x="628" y="565" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Expected: sum of numbers"</text>
+  <text x="628" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0d0829">"Should skip None values"</text>
+  <text x="858" y="650" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">Result: Precise fix provided</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Better information in = Better fix out</text>
+</svg>

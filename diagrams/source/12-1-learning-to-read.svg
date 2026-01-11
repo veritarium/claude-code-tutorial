@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">LEARNING TO READ CODE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">You don't need to write code to understand it</text>
+
+  <!-- Key insight -->
+  <rect x="150" y="100" width="868" height="80" fill="url(#darkNavy)"/>
+  <text x="584" y="145" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Reading code is like reading a recipe - you can follow along</text>
+  <text x="584" y="170" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">without being a chef</text>
+
+  <!-- Three columns -->
+  <!-- Look For -->
+  <rect x="60" y="210" width="330" height="400" fill="url(#deepBlue)"/>
+  <text x="225" y="250" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">LOOK FOR</text>
+  <text x="225" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Patterns you can recognize</text>
+
+  <rect x="80" y="300" width="290" height="290" fill="#ffffff"/>
+  <text x="95" y="330" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">Names</text>
+  <text x="95" y="355" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">Variables describe what they hold</text>
+
+  <text x="95" y="390" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">Structure</text>
+  <text x="95" y="415" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">Indentation shows grouping</text>
+
+  <text x="95" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">Keywords</text>
+  <text x="95" y="475" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">if, for, while, return</text>
+
+  <text x="95" y="510" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">Comments</text>
+  <text x="95" y="535" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">Human explanations in code</text>
+
+  <text x="95" y="570" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#091358" font-weight="bold">Flow</text>
+  <text x="95" y="595" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">Top to bottom, branching</text>
+
+  <!-- Ask AI -->
+  <rect x="420" y="210" width="330" height="400" fill="url(#steelBlue)"/>
+  <text x="585" y="250" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">ASK AI</text>
+  <text x="585" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Questions to understand code</text>
+
+  <rect x="440" y="300" width="290" height="290" fill="#ffffff"/>
+  <text x="455" y="335" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"What does this code do?"</text>
+  <text x="455" y="370" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"Explain line by line"</text>
+  <text x="455" y="405" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"What is [variable] for?"</text>
+  <text x="455" y="440" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"Why is this needed?"</text>
+  <text x="455" y="475" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"What would break this?"</text>
+  <text x="455" y="510" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">"Simplify this for me"</text>
+  <text x="455" y="555" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-style="italic">AI is your code interpreter!</text>
+
+  <!-- Skip For Now -->
+  <rect x="780" y="210" width="330" height="400" fill="url(#deepBlue)"/>
+  <text x="945" y="250" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">SKIP FOR NOW</text>
+  <text x="945" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Don't worry about these yet</text>
+
+  <rect x="800" y="300" width="290" height="290" fill="#ffffff"/>
+  <text x="815" y="335" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Memorizing syntax</text>
+  <text x="815" y="370" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Understanding every detail</text>
+  <text x="815" y="405" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Advanced patterns</text>
+  <text x="815" y="440" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Optimization tricks</text>
+  <text x="815" y="475" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Framework internals</text>
+  <text x="815" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-style="italic">Focus on the big picture first</text>
+
+  <!-- Key message -->
+  <rect x="200" y="640" width="768" height="60" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="678" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Goal: Understand what code does, not memorize how to write it</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="730" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="770" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Reading + AI explanations = Understanding</text>
+</svg>

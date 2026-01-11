@@ -1,4 +1,19 @@
-title: Claude Code Tutorial
-description: A comprehensive guide to becoming a proficient Claude Code user
+title: "From Non-Coder to Builder"
+description: "Coding with AI for Engineers - A visual tutorial for smart people who don't code yet"
 theme: jekyll-theme-primer
 markdown: GFM
+
+exclude:
+  - NARRATION-SCRIPTS.md
+  - VISION.md
+  - CLAUDE.md
+  - METHOD.md
+  - CONCEPTS.md
+  - ARRANGE.md
+  - SPLIT.md
+  - drawings/
+  - diagrams/WORKFLOW.md
+  - diagrams/DESIGN-SYSTEM.md
+  - create_presentation.py
+  - From-NonCoder-to-Builder.pptx
+  - .venv/

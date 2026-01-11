@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">THE RULE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">The one-sentence test for task size</text>
+
+  <!-- Main question box -->
+  <rect x="284" y="110" width="600" height="100" fill="url(#deepBlue)"/>
+  <text x="584" y="155" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">"Can I explain this task</text>
+  <text x="584" y="190" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">in ONE sentence?"</text>
+
+  <!-- Two paths -->
+  <!-- Left path: TOO BIG -->
+  <path d="M 434 210 L 434 260 L 284 260 L 284 300" stroke="#0d0829" stroke-width="3" fill="none"/>
+  <text x="350" y="250" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#b60002">NO</text>
+
+  <!-- Right path: JUST RIGHT -->
+  <path d="M 734 210 L 734 260 L 884 260 L 884 300" stroke="#0d0829" stroke-width="3" fill="none"/>
+  <text x="820" y="250" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358">YES</text>
+
+  <!-- TOO BIG section -->
+  <rect x="84" y="300" width="400" height="380" fill="#ffffff" stroke="#b60002" stroke-width="3"/>
+  <rect x="84" y="300" width="400" height="50" fill="url(#brightRed)"/>
+  <text x="284" y="333" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">TOO BIG</text>
+
+  <text x="284" y="390" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">Example prompt:</text>
+  <text x="284" y="420" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle" font-style="italic">"Build a web app that lets users track</text>
+  <text x="284" y="442" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle" font-style="italic">expenses, generate reports, and export</text>
+  <text x="284" y="464" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle" font-style="italic">to PDF with charts and summaries"</text>
+
+  <text x="284" y="510" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">Problem:</text>
+  <text x="284" y="540" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">Multiple features in one request</text>
+  <text x="284" y="562" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">AI will miss details or make wrong choices</text>
+
+  <text x="284" y="610" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">Action:</text>
+  <text x="284" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Break it down further →</text>
+
+  <!-- JUST RIGHT section -->
+  <rect x="684" y="300" width="400" height="380" fill="#ffffff" stroke="#091358" stroke-width="3"/>
+  <rect x="684" y="300" width="400" height="50" fill="url(#deepBlue)"/>
+  <text x="884" y="333" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">JUST RIGHT</text>
+
+  <text x="884" y="390" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">Example prompt:</text>
+  <text x="884" y="420" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle" font-style="italic">"Create a function that calculates</text>
+  <text x="884" y="442" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle" font-style="italic">the total from a list of numbers"</text>
+
+  <text x="884" y="510" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">Why it works:</text>
+  <text x="884" y="540" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">Single, clear objective</text>
+  <text x="884" y="562" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">AI knows exactly what to produce</text>
+
+  <text x="884" y="610" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">Action:</text>
+  <text x="884" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">✓ Send to AI</text>
+
+  <!-- Bottom summary -->
+  <rect x="284" y="720" width="600" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="758" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">One sentence = One prompt = One clear result</text>
+</svg>

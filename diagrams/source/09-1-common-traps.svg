@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">COMMON TRAPS</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Mistakes beginners make with AI coding</text>
+
+  <!-- Trap 1 -->
+  <rect x="60" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <text x="225" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 1</text>
+  <text x="225" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Blind Trust</text>
+  <rect x="80" y="195" width="290" height="95" fill="#ffffff"/>
+  <text x="225" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" text-anchor="middle">Running code without reading it</text>
+  <text x="225" y="245" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Always review before running</text>
+  <text x="225" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Ask AI to explain what it does</text>
+
+  <!-- Trap 2 -->
+  <rect x="420" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <text x="585" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 2</text>
+  <text x="585" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Vague Prompts</text>
+  <rect x="440" y="195" width="290" height="95" fill="#ffffff"/>
+  <text x="585" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" text-anchor="middle">"Make it better" or "Fix this"</text>
+  <text x="585" y="245" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Be specific about what's wrong</text>
+  <text x="585" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">State expected vs actual behavior</text>
+
+  <!-- Trap 3 -->
+  <rect x="780" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 3</text>
+  <text x="945" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Too Big Tasks</text>
+  <rect x="800" y="195" width="290" height="95" fill="#ffffff"/>
+  <text x="945" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" text-anchor="middle">"Build me a whole app"</text>
+  <text x="945" y="245" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Break into small tasks</text>
+  <text x="945" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">One feature at a time</text>
+
+  <!-- Trap 4 -->
+  <rect x="60" y="340" width="330" height="200" fill="url(#steelBlue)"/>
+  <text x="225" y="380" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 4</text>
+  <text x="225" y="410" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">No Context</text>
+  <rect x="80" y="425" width="290" height="95" fill="#ffffff"/>
+  <text x="225" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Not sharing error messages or code</text>
+  <text x="225" y="475" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Paste errors and code</text>
+  <text x="225" y="505" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Include relevant files</text>
+
+  <!-- Trap 5 -->
+  <rect x="420" y="340" width="330" height="200" fill="url(#steelBlue)"/>
+  <text x="585" y="380" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 5</text>
+  <text x="585" y="410" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Giving Up Too Fast</text>
+  <rect x="440" y="425" width="290" height="95" fill="#ffffff"/>
+  <text x="585" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">First attempt didn't work, quit</text>
+  <text x="585" y="475" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Iterate and refine</text>
+  <text x="585" y="505" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Give 3-5 attempts</text>
+
+  <!-- Trap 6 -->
+  <rect x="780" y="340" width="330" height="200" fill="url(#steelBlue)"/>
+  <text x="945" y="380" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 6</text>
+  <text x="945" y="410" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Not Learning</text>
+  <rect x="800" y="425" width="290" height="95" fill="#ffffff"/>
+  <text x="945" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Copy-paste without understanding</text>
+  <text x="945" y="475" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Fix: Ask AI to explain</text>
+  <text x="945" y="505" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Learn from each solution</text>
+
+  <!-- Summary section -->
+  <rect x="150" y="570" width="868" height="120" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="605" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">The Pattern</text>
+  <text x="584" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Most traps come from treating AI like magic instead of a tool</text>
+  <text x="584" y="670" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6882a1" text-anchor="middle" font-style="italic">Stay engaged, stay specific, stay curious</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Awareness of traps = Avoidance of traps</text>
+</svg>

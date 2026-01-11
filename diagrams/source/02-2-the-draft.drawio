@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" version="22.1.0" type="device">
+  <diagram name="The Draft" id="draft-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="THE DRAFT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=24;fontStyle=1;fontColor=#1a1a1a;letterSpacing=4;" vertex="1" parent="1">
+          <mxGeometry x="484" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="First result is a starting point, not the destination" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="384" y="80" width="400" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- V1 Container -->
+        <mxCell id="v1-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a1a;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="176" height="280" as="geometry" />
+        </mxCell>
+        <!-- V1 Fill (10%) -->
+        <mxCell id="v1-fill" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e5e5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="404" width="160" height="28" as="geometry" />
+        </mxCell>
+        <!-- V1 Label -->
+        <mxCell id="v1-label" value="V1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#1a1a1a;" vertex="1" parent="1">
+          <mxGeometry x="168" y="168" width="48" height="32" as="geometry" />
+        </mxCell>
+        <!-- V1 Percentage -->
+        <mxCell id="v1-pct" value="10%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#9a9a9a;" vertex="1" parent="1">
+          <mxGeometry x="152" y="464" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- V2 Container -->
+        <mxCell id="v2-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a1a;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="368" y="160" width="176" height="280" as="geometry" />
+        </mxCell>
+        <!-- V2 Fill (40%) -->
+        <mxCell id="v2-fill" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e5e5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376" y="320" width="160" height="112" as="geometry" />
+        </mxCell>
+        <!-- V2 Label -->
+        <mxCell id="v2-label" value="V2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#1a1a1a;" vertex="1" parent="1">
+          <mxGeometry x="416" y="168" width="48" height="32" as="geometry" />
+        </mxCell>
+        <!-- V2 Percentage -->
+        <mxCell id="v2-pct" value="40%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#9a9a9a;" vertex="1" parent="1">
+          <mxGeometry x="400" y="464" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- V3 Container -->
+        <mxCell id="v3-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a1a;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="616" y="160" width="176" height="280" as="geometry" />
+        </mxCell>
+        <!-- V3 Fill (75%) -->
+        <mxCell id="v3-fill" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e5e5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="624" y="222" width="160" height="210" as="geometry" />
+        </mxCell>
+        <!-- V3 Label -->
+        <mxCell id="v3-label" value="V3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#1a1a1a;" vertex="1" parent="1">
+          <mxGeometry x="664" y="168" width="48" height="32" as="geometry" />
+        </mxCell>
+        <!-- V3 Percentage -->
+        <mxCell id="v3-pct" value="75%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="648" y="464" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- V4 Container - Final version, uses accent -->
+        <mxCell id="v4-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a1a;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="864" y="160" width="176" height="280" as="geometry" />
+        </mxCell>
+        <!-- V4 Fill (100%) -->
+        <mxCell id="v4-fill" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a1a;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="872" y="168" width="160" height="264" as="geometry" />
+        </mxCell>
+        <!-- V4 Label -->
+        <mxCell id="v4-label" value="V4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="912" y="176" width="48" height="32" as="geometry" />
+        </mxCell>
+        <!-- V4 Percentage -->
+        <mxCell id="v4-pct" value="100%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#1a1a1a;" vertex="1" parent="1">
+          <mxGeometry x="896" y="464" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows between versions -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#1a1a1a;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="300" as="sourcePoint" />
+            <mxPoint x="368" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="refine1" value="refine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="304" y="280" width="48" height="16" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#1a1a1a;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544" y="300" as="sourcePoint" />
+            <mxPoint x="616" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="refine2" value="refine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="552" y="280" width="48" height="16" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#1a1a1a;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="792" y="300" as="sourcePoint" />
+            <mxPoint x="864" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="refine3" value="refine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="48" height="16" as="geometry" />
+        </mxCell>
+
+        <!-- Key insight box -->
+        <mxCell id="insight-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#1a1a1a;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="544" width="608" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="Key Insight" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1a1a1a;" vertex="1" parent="1">
+          <mxGeometry x="280" y="552" width="608" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-text" value="Iteration is the process, not failure. Plan for 2–5 cycles. Each refinement closes the gap." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="280" y="576" width="608" height="32" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

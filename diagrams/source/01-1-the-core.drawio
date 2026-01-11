@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" version="22.1.0" type="device">
+  <diagram name="The Core" id="core-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="THE CORE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#1e293b;letterSpacing=4;" vertex="1" parent="1">
+          <mxGeometry x="434" y="40" width="300" height="48" as="geometry" />
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="The fundamental partnership between human and AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="334" y="88" width="500" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- YOU Box - CYAN -->
+        <mxCell id="you-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cffafe;strokeColor=#0e7490;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="you-label" value="YOU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0e7490;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="180" y="176" width="120" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- YOU items -->
+        <mxCell id="you-item1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="224" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item1-label" value="Problem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#0e7490;" vertex="1" parent="1">
+          <mxGeometry x="120" y="232" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item1-desc" value="What you're trying to solve" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="120" y="256" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="you-item2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="312" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item2-label" value="Context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#0e7490;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item2-desc" value="Background AI cannot see" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="120" y="344" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="you-item3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="400" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item3-label" value="Intent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#0e7490;" vertex="1" parent="1">
+          <mxGeometry x="120" y="408" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item3-desc" value="What outcome you want" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="120" y="432" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="you-item4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="488" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item4-label" value="Judgment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#0e7490;" vertex="1" parent="1">
+          <mxGeometry x="120" y="496" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="you-item4-desc" value="Is the result correct?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- AI Box - GREEN -->
+        <mxCell id="ai-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d9f99d;strokeColor=#65a30d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="768" y="160" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-label" value="AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#65a30d;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="868" y="176" width="120" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- AI items -->
+        <mxCell id="ai-item1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#65a30d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="224" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item1-label" value="Code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#65a30d;" vertex="1" parent="1">
+          <mxGeometry x="808" y="232" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item1-desc" value="Every language, every syntax" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="808" y="256" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ai-item2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#65a30d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="312" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item2-label" value="Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#65a30d;" vertex="1" parent="1">
+          <mxGeometry x="808" y="320" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item2-desc" value="Standard solutions to problems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="808" y="344" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ai-item3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#65a30d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="400" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item3-label" value="Syntax" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#65a30d;" vertex="1" parent="1">
+          <mxGeometry x="808" y="408" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item3-desc" value="Exact structure code needs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="808" y="432" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ai-item4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#65a30d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="488" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item4-label" value="Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#65a30d;" vertex="1" parent="1">
+          <mxGeometry x="808" y="496" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-item4-desc" value="Thousands of pre-built tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+          <mxGeometry x="808" y="520" width="240" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- PROMPT - center element GOLD/AMBER -->
+        <mxCell id="prompt-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="488" y="336" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt-label" value="PROMPT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#d97706;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="488" y="344" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt-desc" value="Your words become code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#92400e;" vertex="1" parent="1">
+          <mxGeometry x="488" y="368" width="192" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to PROMPT -->
+        <mxCell id="arrow-you-prompt" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#334155;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="you-box" target="prompt-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-prompt-ai" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#334155;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="prompt-box" target="ai-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- SOFTWARE output - TEAL -->
+        <mxCell id="software-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0d9488;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="448" y="680" width="272" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="software-label" value="SOFTWARE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#0d9488;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="448" y="696" width="272" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="software-desc" value="Working code, delivered" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#115e59;" vertex="1" parent="1">
+          <mxGeometry x="448" y="720" width="272" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to SOFTWARE -->
+        <mxCell id="arrow-you-sw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#334155;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="you-box" target="software-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-ai-sw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#334155;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ai-box" target="software-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-you" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cffafe;strokeColor=#0e7490;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="616" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-you-text" value="You" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#1e293b;" vertex="1" parent="1">
+          <mxGeometry x="112" y="616" width="48" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ai" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d9f99d;strokeColor=#65a30d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="168" y="616" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ai-text" value="AI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#1e293b;" vertex="1" parent="1">
+          <mxGeometry x="200" y="616" width="32" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-prompt" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="616" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-prompt-text" value="Prompt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#1e293b;" vertex="1" parent="1">
+          <mxGeometry x="272" y="616" width="56" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-output" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0d9488;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="616" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-output-text" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#1e293b;" vertex="1" parent="1">
+          <mxGeometry x="368" y="616" width="56" height="24" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

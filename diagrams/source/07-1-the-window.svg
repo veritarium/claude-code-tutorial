@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">THE WINDOW</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">AI only sees what you show it</text>
+
+  <!-- YOUR WORLD - Large outer box -->
+  <rect x="100" y="110" width="700" height="520" fill="#f5f5f5" stroke="#091358" stroke-width="3"/>
+  <text x="450" y="145" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#091358" text-anchor="middle">YOUR WORLD</text>
+
+  <!-- Items in your world that AI CAN'T see -->
+  <text x="140" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Your project history</text>
+  <text x="140" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Other files in the project</text>
+  <text x="140" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Business requirements</text>
+  <text x="140" y="260" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Team coding standards</text>
+
+  <text x="550" y="550" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Past conversations</text>
+  <text x="550" y="575" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Your preferences</text>
+  <text x="550" y="600" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Why you're doing this</text>
+
+  <!-- AI'S WINDOW - Smaller inner box -->
+  <rect x="200" y="290" width="400" height="250" fill="#ffffff" stroke="#b60002" stroke-width="4"/>
+  <text x="400" y="325" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#b60002" text-anchor="middle">AI'S WINDOW</text>
+  <text x="400" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle" font-style="italic">Only sees what's in the prompt</text>
+
+  <!-- What AI CAN see -->
+  <text x="230" y="390" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">✓ Current message</text>
+  <text x="230" y="420" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">✓ Code you paste</text>
+  <text x="230" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">✓ Error messages you share</text>
+  <text x="230" y="480" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">✓ Context you provide</text>
+  <text x="230" y="510" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">✓ This conversation only</text>
+
+  <!-- Right side explanation -->
+  <rect x="850" y="110" width="260" height="250" fill="url(#deepBlue)"/>
+  <text x="980" y="150" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">AI CANNOT:</text>
+  <text x="870" y="185" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• See your screen</text>
+  <text x="870" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Access your files</text>
+  <text x="870" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Remember past chats</text>
+  <text x="870" y="260" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Know your project</text>
+  <text x="870" y="285" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Read your mind</text>
+  <text x="870" y="320" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" font-style="italic">Unless you tell it!</text>
+
+  <rect x="850" y="380" width="260" height="250" fill="url(#brightRed)"/>
+  <text x="980" y="420" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">SO YOU MUST:</text>
+  <text x="870" y="455" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Paste relevant code</text>
+  <text x="870" y="480" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Share error messages</text>
+  <text x="870" y="505" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Explain constraints</text>
+  <text x="870" y="530" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• Give context</text>
+  <text x="870" y="555" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">• State requirements</text>
+  <text x="870" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" font-style="italic">Make the window bigger!</text>
+
+  <!-- Bottom summary -->
+  <rect x="200" y="680" width="768" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="720" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">The more context you share, the better AI understands</text>
+</svg>

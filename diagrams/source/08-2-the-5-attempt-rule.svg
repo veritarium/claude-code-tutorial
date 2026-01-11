@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="brightRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b60002"/>
+      <stop offset="100%" style="stop-color:#690308"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">THE 5-ATTEMPT RULE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">A simple rule for when to restart</text>
+
+  <!-- 5 attempt boxes -->
+  <!-- Attempt 1 -->
+  <rect x="120" y="120" width="180" height="140" fill="url(#deepBlue)"/>
+  <text x="210" y="170" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="210" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Try</text>
+  <rect x="140" y="220" width="140" height="25" fill="#ffffff"/>
+  <text x="210" y="238" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#091358" text-anchor="middle">Initial prompt</text>
+
+  <!-- Arrow -->
+  <text x="315" y="190" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
+
+  <!-- Attempt 2 -->
+  <rect x="340" y="120" width="180" height="140" fill="url(#deepBlue)"/>
+  <text x="430" y="170" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="430" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Refine</text>
+  <rect x="360" y="220" width="140" height="25" fill="#ffffff"/>
+  <text x="430" y="238" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#091358" text-anchor="middle">Add specifics</text>
+
+  <!-- Arrow -->
+  <text x="535" y="190" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
+
+  <!-- Attempt 3 -->
+  <rect x="560" y="120" width="180" height="140" fill="url(#steelBlue)"/>
+  <text x="650" y="170" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="650" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Adjust</text>
+  <rect x="580" y="220" width="140" height="25" fill="#ffffff"/>
+  <text x="650" y="238" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Fix errors</text>
+
+  <!-- Arrow -->
+  <text x="755" y="190" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6882a1">→</text>
+
+  <!-- Attempt 4 -->
+  <rect x="780" y="120" width="180" height="140" fill="url(#steelBlue)"/>
+  <text x="870" y="170" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="870" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Rephrase</text>
+  <rect x="800" y="220" width="140" height="25" fill="#ffffff"/>
+  <text x="870" y="238" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Different approach</text>
+
+  <!-- Arrow down to 5 -->
+  <line x1="870" y1="260" x2="870" y2="300" stroke="#6882a1" stroke-width="2"/>
+  <polygon points="870,310 860,295 880,295" fill="#6882a1"/>
+
+  <!-- Attempt 5 - Warning -->
+  <rect x="780" y="320" width="180" height="140" fill="url(#brightRed)"/>
+  <text x="870" y="370" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="870" y="400" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Last Try</text>
+  <rect x="800" y="420" width="140" height="25" fill="#ffffff"/>
+  <text x="870" y="438" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#b60002" text-anchor="middle">Final attempt</text>
+
+  <!-- Arrow to RESTART -->
+  <line x1="780" y1="390" x2="700" y2="390" stroke="#b60002" stroke-width="3"/>
+  <polygon points="690,390 705,380 705,400" fill="#b60002"/>
+
+  <!-- RESTART box -->
+  <rect x="420" y="310" width="260" height="150" fill="url(#brightRed)"/>
+  <text x="550" y="365" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">RESTART</text>
+  <text x="550" y="400" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">New conversation</text>
+  <text x="550" y="425" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Better prompt</text>
+
+  <!-- Explanation section -->
+  <rect x="100" y="500" width="968" height="180" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#091358" text-anchor="middle">Why 5 Attempts?</text>
+
+  <text x="250" y="585" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Too Few (1-2)</text>
+  <text x="250" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Giving up too early</text>
+  <text x="250" y="635" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Missing easy fixes</text>
+
+  <text x="584" y="585" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#091358" font-weight="bold" text-anchor="middle">Just Right (3-5)</text>
+  <text x="584" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Enough to find solutions</text>
+  <text x="584" y="635" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Not wasting time</text>
+
+  <text x="918" y="585" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" text-anchor="middle">Too Many (6+)</text>
+  <text x="918" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Diminishing returns</text>
+  <text x="918" y="635" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Wasted effort</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">5 attempts max, then start fresh with what you learned</text>
+</svg>

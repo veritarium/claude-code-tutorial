@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">LIBRARIES</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Pre-built code you can use</text>
+
+  <!-- Analogy -->
+  <rect x="200" y="100" width="768" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Libraries are toolboxes - don't build hammers, just use them</text>
+
+  <!-- Your code vs Libraries -->
+  <rect x="100" y="200" width="450" height="220" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="325" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Without Libraries</text>
+  <rect x="120" y="255" width="410" height="145" fill="#f5f5f5"/>
+  <text x="140" y="285" font-family="Courier, monospace" font-size="12" fill="#0d0829"># Calculate average manually</text>
+  <text x="140" y="305" font-family="Courier, monospace" font-size="12" fill="#0d0829">total = 0</text>
+  <text x="140" y="325" font-family="Courier, monospace" font-size="12" fill="#0d0829">for num in numbers:</text>
+  <text x="160" y="345" font-family="Courier, monospace" font-size="12" fill="#0d0829">total = total + num</text>
+  <text x="140" y="365" font-family="Courier, monospace" font-size="12" fill="#0d0829">average = total / len(numbers)</text>
+  <text x="325" y="400" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">5 lines, reinventing the wheel</text>
+
+  <rect x="618" y="200" width="450" height="220" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="843" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">With Libraries</text>
+  <rect x="638" y="255" width="410" height="145" fill="#f5f5f5"/>
+  <text x="658" y="285" font-family="Courier, monospace" font-size="12" fill="#091358">import statistics</text>
+  <text x="658" y="320" font-family="Courier, monospace" font-size="12" fill="#0d0829">average = statistics.mean(numbers)</text>
+  <text x="843" y="400" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#091358" text-anchor="middle" font-style="italic">1 line, tested, reliable</text>
+
+  <!-- Common libraries for engineers -->
+  <rect x="100" y="450" width="300" height="230" fill="url(#deepBlue)"/>
+  <text x="250" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Math/Science</text>
+  <rect x="120" y="510" width="260" height="150" fill="#ffffff"/>
+  <text x="140" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">numpy</text>
+  <text x="200" y="540" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Arrays, matrices</text>
+  <text x="140" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">scipy</text>
+  <text x="200" y="570" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Engineering calcs</text>
+  <text x="140" y="600" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">pandas</text>
+  <text x="200" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Data tables</text>
+  <text x="140" y="630" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">math</text>
+  <text x="200" y="630" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Basic math ops</text>
+
+  <rect x="435" y="450" width="300" height="230" fill="url(#steelBlue)"/>
+  <text x="585" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Visualization</text>
+  <rect x="455" y="510" width="260" height="150" fill="#ffffff"/>
+  <text x="475" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">matplotlib</text>
+  <text x="560" y="540" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Charts, plots</text>
+  <text x="475" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">plotly</text>
+  <text x="530" y="570" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Interactive plots</text>
+  <text x="475" y="600" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">seaborn</text>
+  <text x="545" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Statistical viz</text>
+
+  <rect x="770" y="450" width="300" height="230" fill="url(#deepBlue)"/>
+  <text x="920" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Files/Automation</text>
+  <rect x="790" y="510" width="260" height="150" fill="#ffffff"/>
+  <text x="810" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">os</text>
+  <text x="835" y="540" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- File operations</text>
+  <text x="810" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">json</text>
+  <text x="850" y="570" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Read/write JSON</text>
+  <text x="810" y="600" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">csv</text>
+  <text x="845" y="600" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Spreadsheets</text>
+  <text x="810" y="630" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">datetime</text>
+  <text x="880" y="630" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1">- Dates/times</text>
+
+  <!-- How to use -->
+  <rect x="200" y="700" width="768" height="50" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="732" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Ask AI: "What library should I use to [task]?" or "Show me how to use [library] for [goal]"</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="760" width="668" height="50" fill="url(#darkNavy)"/>
+  <text x="584" y="792" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Stand on shoulders of giants - use libraries!</text>
+</svg>

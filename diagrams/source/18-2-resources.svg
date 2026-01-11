@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">RESOURCES</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Where to go when you need help</text>
+
+  <!-- AI Tools -->
+  <rect x="60" y="110" width="330" height="270" fill="url(#deepBlue)"/>
+  <text x="225" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">AI Tools</text>
+  <rect x="80" y="170" width="290" height="190" fill="#ffffff"/>
+  <text x="100" y="200" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">Claude (Anthropic)</text>
+  <text x="100" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Great for explanations</text>
+  <text x="100" y="250" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">ChatGPT (OpenAI)</text>
+  <text x="100" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Good for code generation</text>
+  <text x="100" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">GitHub Copilot</text>
+  <text x="100" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">In-editor assistance</text>
+  <text x="225" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Use what works for you</text>
+
+  <!-- Learning -->
+  <rect x="420" y="110" width="330" height="270" fill="url(#steelBlue)"/>
+  <text x="585" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Learning More</text>
+  <rect x="440" y="170" width="290" height="190" fill="#ffffff"/>
+  <text x="460" y="200" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">Python.org</text>
+  <text x="460" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Official documentation</text>
+  <text x="460" y="250" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">Stack Overflow</text>
+  <text x="460" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Q&amp;A for specific errors</text>
+  <text x="460" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-weight="bold">YouTube tutorials</text>
+  <text x="460" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Visual learning</text>
+  <text x="585" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6882a1" text-anchor="middle" font-style="italic">Search when stuck</text>
+
+  <!-- Practice -->
+  <rect x="780" y="110" width="330" height="270" fill="url(#deepBlue)"/>
+  <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Practice Ideas</text>
+  <rect x="800" y="170" width="290" height="190" fill="#ffffff"/>
+  <text x="820" y="200" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">Automate calculations</text>
+  <text x="820" y="220" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Turn Excel work into code</text>
+  <text x="820" y="250" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">Data visualization</text>
+  <text x="820" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Create charts from data</text>
+  <text x="820" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358" font-weight="bold">File processing</text>
+  <text x="820" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1">Batch convert/rename</text>
+  <text x="945" y="350" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#091358" text-anchor="middle" font-style="italic">Solve real problems</text>
+
+  <!-- When stuck workflow -->
+  <rect x="100" y="410" width="968" height="200" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="450" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">When You're Stuck: The Workflow</text>
+
+  <rect x="150" y="480" width="160" height="60" fill="url(#deepBlue)"/>
+  <text x="230" y="518" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">1. Ask AI</text>
+
+  <text x="330" y="510" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="360" y="480" width="160" height="60" fill="url(#steelBlue)"/>
+  <text x="440" y="518" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">2. Search Web</text>
+
+  <text x="540" y="510" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="570" y="480" width="160" height="60" fill="url(#deepBlue)"/>
+  <text x="650" y="518" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">3. Rephrase</text>
+
+  <text x="750" y="510" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6882a1">→</text>
+
+  <rect x="780" y="480" width="160" height="60" fill="url(#steelBlue)"/>
+  <text x="860" y="518" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">4. Break Down</text>
+
+  <text x="584" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle" font-style="italic">Most problems solved in 1-2 steps</text>
+
+  <!-- Bottom message -->
+  <rect x="200" y="640" width="768" height="60" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="678" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0d0829" text-anchor="middle">Your best resource: curiosity and willingness to experiment</text>
+
+  <!-- Bottom summary -->
+  <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Help is always one question away</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">WHAT TO SHARE</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Five types of context that improve AI results</text>
+
+  <!-- 5 boxes in a pattern -->
+  <!-- 1. CONSTRAINTS -->
+  <rect x="60" y="110" width="330" height="180" fill="url(#deepBlue)"/>
+  <text x="225" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">1. CONSTRAINTS</text>
+  <text x="225" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Limitations and requirements</text>
+  <rect x="80" y="195" width="290" height="75" fill="#ffffff"/>
+  <text x="225" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Must work in Python 3.8"</text>
+  <text x="225" y="240" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"No external libraries"</text>
+  <text x="225" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Max 100 lines of code"</text>
+
+  <!-- 2. PREFERENCES -->
+  <rect x="420" y="110" width="330" height="180" fill="url(#steelBlue)"/>
+  <text x="585" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">2. PREFERENCES</text>
+  <text x="585" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Style and approach choices</text>
+  <rect x="440" y="195" width="290" height="75" fill="#ffffff"/>
+  <text x="585" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"Use descriptive variable names"</text>
+  <text x="585" y="240" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"Add comments for complex logic"</text>
+  <text x="585" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"Prefer simple over clever"</text>
+
+  <!-- 3. HISTORY -->
+  <rect x="780" y="110" width="330" height="180" fill="url(#deepBlue)"/>
+  <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">3. HISTORY</text>
+  <text x="945" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">What led to this point</text>
+  <rect x="800" y="195" width="290" height="75" fill="#ffffff"/>
+  <text x="945" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"We tried X but it failed because..."</text>
+  <text x="945" y="240" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"This is part of a larger system"</text>
+  <text x="945" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Previous version had this bug..."</text>
+
+  <!-- 4. ERRORS -->
+  <rect x="180" y="320" width="380" height="180" fill="url(#steelBlue)"/>
+  <text x="370" y="360" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">4. ERRORS</text>
+  <text x="370" y="390" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Exact error messages and symptoms</text>
+  <rect x="200" y="405" width="340" height="75" fill="#ffffff"/>
+  <text x="370" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"TypeError: 'NoneType' has no len()"</text>
+  <text x="370" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"Happens when input is empty list"</text>
+  <text x="370" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">"Line 42 in process_data function"</text>
+
+  <!-- 5. FILES -->
+  <rect x="610" y="320" width="380" height="180" fill="url(#deepBlue)"/>
+  <text x="800" y="360" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">5. FILES</text>
+  <text x="800" y="390" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Relevant code and data</text>
+  <rect x="630" y="405" width="340" height="75" fill="#ffffff"/>
+  <text x="800" y="430" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Here's the current function: [code]"</text>
+  <text x="800" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Sample input data: [data]"</text>
+  <text x="800" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle">"Related config file: [config]"</text>
+
+  <!-- Summary checklist -->
+  <rect x="200" y="530" width="768" height="170" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="584" y="565" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Before Sending a Prompt, Ask:</text>
+
+  <text x="280" y="605" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">□ Did I share relevant constraints?</text>
+  <text x="600" y="605" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">□ Did I mention my preferences?</text>
+  <text x="280" y="635" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">□ Did I explain the history/context?</text>
+  <text x="600" y="635" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">□ Did I include error messages?</text>
+  <text x="440" y="665" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829">□ Did I paste the relevant code/files?</text>
+
+  <!-- Bottom summary -->
+  <rect x="300" y="730" width="568" height="60" fill="url(#darkNavy)"/>
+  <text x="584" y="765" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">More context = Fewer iterations = Better results</text>
+</svg>

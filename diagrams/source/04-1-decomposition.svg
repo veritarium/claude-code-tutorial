@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1169 827" width="1169" height="827">
+  <defs>
+    <linearGradient id="deepBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091358"/>
+      <stop offset="100%" style="stop-color:#0d0829"/>
+    </linearGradient>
+
+    <linearGradient id="steelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a94b3"/>
+      <stop offset="100%" style="stop-color:#6882a1"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0829"/>
+      <stop offset="100%" style="stop-color:#091358"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1169" height="827" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">DECOMPOSITION</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Break big tasks into AI-sized pieces</text>
+
+  <!-- Level 1: Big Task (TOO BIG) -->
+  <rect x="384" y="110" width="400" height="80" fill="url(#deepBlue)"/>
+  <text x="584" y="145" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Build a bolt calculator app</text>
+  <text x="584" y="172" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">TOO BIG for one prompt</text>
+
+  <!-- Connecting lines Level 1 → Level 2 -->
+  <path d="M 484 190 L 484 220 L 234 220 L 234 250" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 584 190 L 584 250" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 684 190 L 684 220 L 934 220 L 934 250" stroke="#0d0829" stroke-width="2" fill="none"/>
+
+  <!-- Level 2: Medium Tasks -->
+  <rect x="84" y="250" width="300" height="70" fill="url(#steelBlue)"/>
+  <text x="234" y="285" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Input Module</text>
+  <text x="234" y="307" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Still needs breakdown</text>
+
+  <rect x="434" y="250" width="300" height="70" fill="url(#steelBlue)"/>
+  <text x="584" y="285" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Calculation Module</text>
+  <text x="584" y="307" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Still needs breakdown</text>
+
+  <rect x="784" y="250" width="300" height="70" fill="url(#steelBlue)"/>
+  <text x="934" y="285" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Output Module</text>
+  <text x="934" y="307" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-style="italic">Still needs breakdown</text>
+
+  <!-- Connecting lines Level 2 → Level 3 -->
+  <path d="M 159 320 L 159 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 234 320 L 234 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 309 320 L 309 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+
+  <path d="M 509 320 L 509 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 584 320 L 584 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 659 320 L 659 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+
+  <path d="M 859 320 L 859 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 934 320 L 934 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+  <path d="M 1009 320 L 1009 360" stroke="#0d0829" stroke-width="2" fill="none"/>
+
+  <!-- Level 3: Small Tasks (JUST RIGHT) -->
+  <!-- Input Module children -->
+  <rect x="84" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="159" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Bolt diameter</text>
+
+  <rect x="159" y="425" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="234" y="457" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Material grade</text>
+
+  <rect x="234" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="309" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Load value</text>
+
+  <!-- Calculation Module children -->
+  <rect x="434" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="509" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Stress formula</text>
+
+  <rect x="509" y="425" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="584" y="457" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Safety factor</text>
+
+  <rect x="584" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="659" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Unit conversion</text>
+
+  <!-- Output Module children -->
+  <rect x="784" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="859" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Result display</text>
+
+  <rect x="859" y="425" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="934" y="457" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Pass/fail check</text>
+
+  <rect x="934" y="360" width="150" height="55" fill="url(#darkNavy)"/>
+  <text x="1009" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Report format</text>
+
+  <!-- Checkmark indicator for "Just Right" -->
+  <text x="50" y="400" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#091358">✓</text>
+
+  <!-- Key insight boxes -->
+  <rect x="100" y="540" width="460" height="120" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="330" y="575" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">The Goal</text>
+  <text x="330" y="605" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">Each piece should be small enough</text>
+  <text x="330" y="630" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">to describe in ONE sentence</text>
+
+  <rect x="608" y="540" width="460" height="120" fill="#ffffff" stroke="#091358" stroke-width="2"/>
+  <text x="838" y="575" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">The Test</text>
+  <text x="838" y="605" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">"Can I explain this task in one sentence?"</text>
+  <text x="838" y="630" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6882a1" text-anchor="middle">No → Break it down further</text>
+
+  <!-- Bottom summary -->
+  <rect x="300" y="700" width="568" height="60" fill="url(#deepBlue)"/>
+  <text x="584" y="738" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Big problems → Small prompts → Working code</text>
+</svg>
