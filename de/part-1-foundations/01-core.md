@@ -24,7 +24,7 @@ Sie müssen kein Programmierer werden. Sie müssen lernen, *mit KI zu programmie
 
 Schauen Sie sich dieses Diagramm an. Es gibt hier vier Elemente, und sie bilden eine Partnerschaft, die alles verändert, wie Nicht-Programmierer Software erstellen können.
 
-Sie sind der Ingenieur in dieser Partnerschaft. Sie bringen Fachwissen, Urteilsvermögen und die Fähigkeit mit, zu wissen, was Sie tatsächlich brauchen. Sie verstehen Schraubenspannungsberechnungen und wie ein gültiges Ingenieurergebnis aussieht. Sie wissen, welches Problem gelöst werden muss. Dieses Fachwissen verschwindet nicht, wenn KI ins Spiel kommt—es wird wertvoller, weil Sie derjenige sind, der gute Lösungen von schlechten unterscheiden kann.
+Sie sind der Experte in dieser Partnerschaft. Sie bringen Fachwissen, Urteilsvermögen und die Fähigkeit mit, zu wissen, was Sie tatsächlich brauchen. Sie verstehen Ihr Fachgebiet und wissen, wie ein gültiges Ergebnis aussieht. Sie wissen, welches Problem gelöst werden muss. Dieses Fachwissen verschwindet nicht, wenn KI ins Spiel kommt—es wird wertvoller, weil Sie derjenige sind, der gute Lösungen von schlechten unterscheiden kann.
 
 KI ist Ihr Programmierpartner in dieser Beziehung. Sie kennt Syntax, Muster und kann schnell Code generieren. Sie wird nicht müde und bewertet Ihre Fragen nicht. Aber hier ist der entscheidende Punkt: KI kennt Ihr Problem nicht, es sei denn, Sie sagen es ihr. KI ist mächtig, aber ohne Sie richtungslos. Es ist, als hätten Sie einen unglaublich schnellen Schreiber, der nicht weiß, welches Dokument Sie geschrieben haben möchten.
 

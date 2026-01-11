@@ -24,7 +24,7 @@ Now look what happens when we decompose it. That big task breaks into medium tas
 
 These small tasks are perfect for AI. They're specific. They're contained. They have clear inputs and outputs. Each one can be described in a single sentence, and AI can execute each one with near-perfect accuracy.
 
-Think of it like engineering drawings. You don't hand someone a napkin sketch and say "build this building." You provide detailed drawings of each component. AI needs the same level of specificity. The more you break down a problem before asking AI to solve it, the better your results will be.
+Think of it like architectural drawings. You don't hand someone a napkin sketch and say "build this building." You provide detailed drawings of each component. AI needs the same level of specificity. The more you break down a problem before asking AI to solve it, the better your results will be.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Big tasks confuse AI. Small tasks get perfect results.

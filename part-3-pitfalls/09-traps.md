@@ -51,7 +51,7 @@ For standard work, medium trust is appropriate—review the code and test it. Th
 
 When stakes are low, high trust works fine—a quick check is sufficient. This applies to simple utilities, formatting code, text manipulation, and documentation. Glance at the output, run it once, check that it works, and move on.
 
-The key insight is that trust level depends on consequences of failure, not on how confident AI seems. AI might be very confident about code that deletes your database. That doesn't mean you should trust it blindly. For a bolt stress calculator in a real engineering application? Low trust—verify everything. For a script that renames files in a folder? Higher trust—a quick check suffices.
+The key insight is that trust level depends on consequences of failure, not on how confident AI seems. AI might be very confident about code that deletes your database. That doesn't mean you should trust it blindly. For a calculator handling financial data or safety-critical applications? Low trust—verify everything. For a script that renames files in a folder? Higher trust—a quick check suffices.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Higher stakes = More verification needed. Trust level depends on consequences, not AI confidence.

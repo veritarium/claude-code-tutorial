@@ -53,7 +53,7 @@ Für Standardarbeit ist mittleres Vertrauen angemessen—überprüfen Sie den Co
 
 Wenn wenig auf dem Spiel steht, ist hohes Vertrauen in Ordnung—eine schnelle Prüfung reicht aus. Das gilt für einfache Hilfsprogramme, Formatierungscode, Textmanipulation und Dokumentation. Werfen Sie einen Blick auf die Ausgabe, führen Sie es einmal aus, prüfen Sie, dass es funktioniert, und machen Sie weiter.
 
-Die Kernerkenntnis ist, dass die Vertrauensstufe von den Konsequenzen eines Fehlers abhängt, nicht davon, wie selbstsicher die KI erscheint. Die KI könnte sehr selbstsicher bei Code sein, der Ihre Datenbank löscht. Das bedeutet nicht, dass Sie ihm blind vertrauen sollten. Für einen Schraubenspannungsrechner in einer echten Ingenieuranwendung? Niedriges Vertrauen—alles überprüfen. Für ein Skript, das Dateien in einem Ordner umbenennt? Höheres Vertrauen—eine schnelle Prüfung reicht.
+Die Kernerkenntnis ist, dass die Vertrauensstufe von den Konsequenzen eines Fehlers abhängt, nicht davon, wie selbstsicher die KI erscheint. Die KI könnte sehr selbstsicher bei Code sein, der Ihre Datenbank löscht. Das bedeutet nicht, dass Sie ihm blind vertrauen sollten. Für einen Rechner mit Finanzdaten oder sicherheitskritische Anwendungen? Niedriges Vertrauen—alles überprüfen. Für ein Skript, das Dateien in einem Ordner umbenennt? Höheres Vertrauen—eine schnelle Prüfung reicht.
 
 <div class="key-insight">
 <strong>Kernaussage:</strong> Höherer Einsatz = Mehr Überprüfung nötig. Vertrauensstufe hängt von Konsequenzen ab, nicht von KI-Selbstsicherheit.

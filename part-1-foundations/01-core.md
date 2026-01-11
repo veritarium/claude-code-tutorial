@@ -22,7 +22,7 @@ You don't need to become a programmer. You need to become a *builder*.
 
 Look at this diagram. There are four elements here, and they form a partnership that changes everything about how non-coders can create software.
 
-You are the engineer in this partnership. You bring domain knowledge, judgment, and the ability to know what you actually need. You understand bolt stress calculations and what a valid engineering result looks like. You know what problem needs solving. This expertise doesn't disappear when AI enters the picture—it becomes more valuable because you're the one who can tell good solutions from bad ones.
+You are the expert in this partnership. You bring domain knowledge, judgment, and the ability to know what you actually need. You understand your field and what a valid result looks like. You know what problem needs solving. This expertise doesn't disappear when AI enters the picture—it becomes more valuable because you're the one who can tell good solutions from bad ones.
 
 AI is your coding partner in this relationship. It knows syntax, patterns, and can generate code quickly. It doesn't get tired and doesn't judge your questions. But here's the crucial thing: AI doesn't know your problem unless you tell it. AI is powerful but directionless without you. It's like having an incredibly fast typist who doesn't know what document you need written.
 

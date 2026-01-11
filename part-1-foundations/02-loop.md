@@ -22,7 +22,7 @@ The loop has five steps, and you'll repeat them constantly. First, you **DESCRIB
 
 Next comes the critical step most beginners skip: **RUN**. You actually execute the code. Not just look at it. Not just assume it works. Run it with real inputs and see what happens.
 
-Then you **EVALUATE**. Does it work? Does it do what you wanted? This is where your engineering judgment matters most. AI doesn't know if the output makes sense for your application—you do. A stress calculation that returns negative megapascals might be syntactically correct but physically meaningless.
+Then you **EVALUATE**. Does it work? Does it do what you wanted? This is where your domain expertise matters most. AI doesn't know if the output makes sense for your application—you do. A calculation that returns impossible values might be syntactically correct but practically meaningless.
 
 Finally, you make a decision: **Done or Refine?** If it works, you're done. Move on. If it doesn't, you go back to DESCRIBE with more information. "The function works but returns negative values when force is negative. Add validation to reject negative inputs." This loop might run once. It might run ten times. That's normal. Every professional developer works this way—the only difference is they've done more loops.
 
@@ -43,7 +43,7 @@ Here's what most beginners get wrong: they expect perfection on the first try.
 
 Look at this progression. Version 1 is maybe 10% of what you want. It's rough. It might not even run. That's fine. That's the *draft*. Version 2 gets you to 40%—now the basic structure works, but maybe the output format is wrong. Version 3 reaches 75%—it's doing the right calculation but doesn't handle edge cases. Version 4 hits 100%. It works. Ship it.
 
-When you write an engineering report, do you expect the first draft to be perfect? Of course not. You write, review, revise, repeat. Code works the same way. The first output from AI is a starting point, not a final answer. Your job is to test it, identify what's wrong, and guide the refinement.
+When you write a report, do you expect the first draft to be perfect? Of course not. You write, review, revise, repeat. Code works the same way. The first output from AI is a starting point, not a final answer. Your job is to test it, identify what's wrong, and guide the refinement.
 
 This mindset shift is crucial. Stop asking "why didn't AI give me perfect code?" and start asking "what do I need to tell AI to make this better?"
 

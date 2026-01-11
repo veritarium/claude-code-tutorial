@@ -5,7 +5,7 @@ lang: en
 ---
 
 # From Non-Coder to Builder
-## Coding with AI for Engineers
+## Coding with AI for People Who Don't Code Yet
 
 A visual tutorial for smart people who don't code yet.
 
