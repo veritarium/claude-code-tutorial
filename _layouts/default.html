@@ -93,6 +93,11 @@
       background: #e1e4e8;
       text-decoration: none;
     }
+    .sidebar-section-title.active {
+      background: #e1e4e8;
+      color: #091358;
+      border-left: 3px solid #091358;
+    }
     .sidebar-links {
       list-style: none;
       margin: 0;
@@ -398,6 +403,17 @@
           sidebar.classList.contains('open')) {
         sidebar.classList.remove('open');
       }
+    });
+    // Highlight current page in sidebar
+    document.addEventListener('DOMContentLoaded', function() {
+      const currentPath = window.location.pathname;
+      const sidebarLinks = document.querySelectorAll('.sidebar-links a, .sidebar-section-title');
+      sidebarLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && (currentPath === href || currentPath === href + '/' || currentPath + '/' === href)) {
+          link.classList.add('active');
+        }
+      });
     });
   </script>
 </body>
