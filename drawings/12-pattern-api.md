@@ -125,4 +125,4 @@ Every API is just CRUD operations on resources. Start with one GET endpoint, tes
 
 ---
 
-[← Automation Pattern](11-pattern-automation.md) | [Home](../README.md)
+[← Automation Pattern](11-pattern-automation.md) | [Next: Debugging Pattern →](13-pattern-debugging.md)

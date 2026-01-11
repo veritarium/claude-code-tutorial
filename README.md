@@ -43,6 +43,7 @@ claude
 | 10 | [Build Incrementally](drawings/10-build-incrementally.md) | Small verified steps |
 | 11 | [Automation](drawings/11-pattern-automation.md) | Triggers, actions, scheduled tasks |
 | 12 | [API](drawings/12-pattern-api.md) | Request/response, endpoints, CRUD |
+| 13 | [Debugging](drawings/13-pattern-debugging.md) | Finding and fixing problems |
 
 ---
 
