@@ -4,6 +4,11 @@
 
 🌐 **[View the Tutorial](https://veritarium.github.io/code-with-ai/)**
 
+### Available Languages
+
+- [English](https://veritarium.github.io/code-with-ai/)
+- [Deutsch (German)](https://veritarium.github.io/code-with-ai/de/)
+
 ---
 
 ## What This Is
