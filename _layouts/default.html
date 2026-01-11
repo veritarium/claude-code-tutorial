@@ -211,6 +211,15 @@
       display: block;
     }
 
+    [data-theme="dark"] .sidebar {
+      background: var(--bg-surface);
+      border-right-color: var(--border);
+    }
+
+    [data-theme="dark"] .sidebar-overlay {
+      background: rgba(0,0,0,0.5);
+    }
+
     .sidebar-section {
       margin-bottom: 0.5rem;
     }
@@ -271,6 +280,15 @@
       background: var(--accent);
       color: #fff;
       font-weight: 500;
+    }
+
+    [data-theme="dark"] .sidebar-links a {
+      color: var(--text-secondary);
+    }
+
+    [data-theme="dark"] .sidebar-links a:hover {
+      background: var(--bg);
+      color: var(--text);
     }
 
     .sidebar-download {
