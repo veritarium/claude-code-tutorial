@@ -55,7 +55,7 @@
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.7;
+      line-height: 1.5;
       color: var(--text);
       margin: 0;
       padding: 0;
@@ -119,7 +119,7 @@
     /* Mobile-first: Header */
     .site-header {
       background: var(--bg-surface);
-      padding: 1rem 1.25rem;
+      padding: 0.5rem 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -180,13 +180,13 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 280px;
+      width: 240px;
       height: 100vh;
       background: var(--bg-surface);
       border-right: 1px solid var(--border);
       overflow-y: auto;
       z-index: 200;
-      padding: 1.5rem 0;
+      padding: 0.75rem 0;
       display: none;
       box-shadow: var(--shadow-lg);
     }
@@ -212,17 +212,17 @@
     }
 
     .sidebar-section {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.5rem;
     }
 
     .sidebar-section-title {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      padding: 0.5rem 1.25rem;
+      gap: 0.35rem;
+      padding: 0.35rem 0.75rem;
       font-weight: 600;
       color: var(--text);
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       text-decoration: none;
@@ -244,20 +244,20 @@
     .sidebar-links {
       list-style: none;
       margin: 0;
-      padding: 0 0.75rem;
+      padding: 0 0.5rem;
     }
 
     .sidebar-links li {
-      margin-bottom: 0.125rem;
+      margin-bottom: 0;
     }
 
     .sidebar-links a {
       display: flex;
       align-items: center;
-      padding: 0.6rem 0.75rem;
+      padding: 0.3rem 0.5rem;
       color: var(--text-secondary);
       text-decoration: none;
-      font-size: 0.875rem;
+      font-size: 0.8rem;
       border-radius: var(--radius);
       transition: all 0.15s ease;
     }
@@ -274,59 +274,58 @@
     }
 
     .sidebar-download {
-      padding: 1rem 1rem;
-      margin-top: 1.5rem;
+      padding: 0.5rem 0.5rem;
+      margin-top: 0.5rem;
     }
 
     .sidebar-download a {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 0.35rem;
       background: var(--accent);
       color: #fff;
-      padding: 0.75rem 1rem;
+      padding: 0.5rem 0.75rem;
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       text-align: center;
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-weight: 500;
-      min-height: 44px;
+      min-height: 36px;
     }
 
     /* Main Content - Mobile first */
     .main-content {
-      padding: 2rem 1.25rem;
+      padding: 1rem 1rem;
       max-width: 100%;
       background: var(--bg-surface);
       min-height: 100vh;
     }
 
     .main-content h1 {
-      font-size: 2rem;
+      font-size: 1.75rem;
       font-weight: 700;
       color: var(--text);
-      margin-bottom: 0.5rem;
-      line-height: 1.3;
+      margin-bottom: 0.35rem;
+      line-height: 1.25;
     }
 
     .main-content h2 {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
       font-weight: 600;
       color: var(--text);
-      margin-top: 2.5rem;
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.35rem;
       border-bottom: 1px solid var(--border);
     }
 
     .main-content h3 {
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       font-weight: 600;
       color: var(--text);
-      margin-top: 2rem;
+      margin-top: 1.25rem;
     }
 
     /* Images - full width on mobile, clickable for fullscreen */
@@ -336,7 +335,7 @@
       width: 100%;
       max-width: 100%;
       height: auto;
-      margin: 2rem 0;
+      margin: 1rem 0;
       border-radius: var(--radius-lg);
       border: 1px solid var(--border);
       cursor: zoom-in;
@@ -411,48 +410,48 @@
       text-align: center;
       font-style: italic;
       color: var(--text-secondary);
-      margin-top: -1rem;
-      margin-bottom: 1.5rem;
-      font-size: 0.85rem;
+      margin-top: -0.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.8rem;
     }
 
     /* Typography */
     h1 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       color: var(--text);
-      line-height: 1.3;
+      line-height: 1.25;
       margin-top: 0;
     }
 
     h2 {
-      font-size: 1.35rem;
+      font-size: 1.2rem;
       color: var(--text);
       border-bottom: 1px solid var(--border);
-      padding-bottom: 0.5rem;
-      margin-top: 2rem;
+      padding-bottom: 0.35rem;
+      margin-top: 1.25rem;
     }
 
     h3 {
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: var(--text-secondary);
-      margin-top: 1.5rem;
+      margin-top: 1rem;
     }
 
     p {
-      margin-bottom: 1.25rem;
+      margin-bottom: 0.75rem;
     }
 
     /* Code blocks */
     pre {
       background: var(--bg-elevated);
       color: var(--text);
-      padding: 1rem;
+      padding: 0.75rem;
       border-radius: var(--radius);
       border: 1px solid var(--border);
       overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.5;
-      margin: 1.5rem 0;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      margin: 0.75rem 0;
       -webkit-overflow-scrolling: touch;
     }
 
@@ -479,24 +478,24 @@
     /* Key insight box */
     .key-insight {
       background: var(--bg);
-      border-left: 4px solid var(--accent);
-      padding: 1.25rem;
-      margin: 1.5rem 0;
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem;
+      margin: 0.75rem 0;
       border-radius: 0 var(--radius) var(--radius) 0;
     }
 
     .key-insight strong {
       color: var(--accent);
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
     }
 
     /* Try it yourself box */
     .try-it {
       background: var(--bg);
       border: 1px solid var(--border);
-      padding: 1.25rem;
-      margin: 1.5rem 0;
+      padding: 0.75rem;
+      margin: 0.75rem 0;
       border-radius: var(--radius);
     }
 
@@ -508,20 +507,20 @@
     /* Expected output */
     .expected-output {
       background: var(--bg);
-      border-left: 4px solid var(--green);
-      padding: 1rem;
-      margin: 1rem 0;
+      border-left: 3px solid var(--green);
+      padding: 0.5rem 0.75rem;
+      margin: 0.5rem 0;
       border-radius: 0 var(--radius) var(--radius) 0;
       font-family: monospace;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
 
     /* Tables */
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1rem 0;
-      font-size: 0.9rem;
+      margin: 0.5rem 0;
+      font-size: 0.85rem;
       background: var(--bg-elevated);
       border-radius: var(--radius);
       overflow: hidden;
@@ -529,7 +528,7 @@
 
     th, td {
       border: 1px solid var(--border);
-      padding: 0.75rem;
+      padding: 0.4rem 0.5rem;
       text-align: left;
     }
 
@@ -542,19 +541,19 @@
     .chapter-nav {
       display: flex;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 0.5rem;
       padding: 0;
-      margin-top: 3rem;
+      margin-top: 1.5rem;
     }
 
     .chapter-nav a {
       flex: 1;
-      padding: 1rem 1.25rem;
+      padding: 0.5rem 0.75rem;
       text-align: center;
       color: var(--text);
       text-decoration: none;
       font-weight: 500;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -593,11 +592,11 @@
 
     /* Footer */
     footer {
-      margin-top: 3rem;
-      padding: 1.5rem 0;
+      margin-top: 1.5rem;
+      padding: 0.75rem 0;
       border-top: 1px solid var(--border);
       color: var(--text-secondary);
-      font-size: 0.85rem;
+      font-size: 0.75rem;
       text-align: center;
     }
 
@@ -605,36 +604,36 @@
     .part-header {
       background: var(--accent);
       color: #fff;
-      padding: 2.5rem 1.5rem;
-      margin: -2rem -1.25rem 2rem -1.25rem;
+      padding: 1.25rem 1rem;
+      margin: -1rem -1rem 1rem -1rem;
       border-radius: 0 0 var(--radius-lg) var(--radius-lg);
     }
 
     .part-header h1 {
       color: #fff;
       margin: 0;
-      font-size: 1.75rem;
+      font-size: 1.35rem;
       font-weight: 700;
     }
 
     .part-header p {
       color: rgba(255,255,255,0.85);
-      margin: 0.75rem 0 0 0;
-      font-size: 1rem;
+      margin: 0.35rem 0 0 0;
+      font-size: 0.9rem;
     }
 
     /* Modern buttons */
     .btn-primary {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.35rem;
       background: var(--accent);
       color: #fff !important;
-      padding: 0.75rem 1.5rem;
+      padding: 0.5rem 1rem;
       border-radius: var(--radius);
       text-decoration: none;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       box-shadow: var(--shadow);
       transition: all 0.15s ease;
       border: none;
@@ -663,12 +662,12 @@
     /* Desktop styles */
     @media (min-width: 768px) {
       .site-header {
-        padding: 0.75rem 2rem;
-        margin-left: 280px;
+        padding: 0.4rem 1.5rem;
+        margin-left: 240px;
       }
 
       .site-title {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
 
       .menu-toggle {
@@ -690,45 +689,45 @@
       }
 
       .main-content {
-        margin-left: 280px;
-        padding: 2.5rem 3rem;
-        max-width: 900px;
+        margin-left: 240px;
+        padding: 1.25rem 2rem;
+        max-width: 850px;
       }
 
       .main-content h1 {
-        font-size: 2.25rem;
+        font-size: 1.75rem;
       }
 
       .main-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
       }
 
       pre {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
       }
 
       .chapter-nav {
-        margin-top: 4rem;
+        margin-top: 2rem;
       }
 
       .chapter-nav a {
-        padding: 1rem 1.5rem;
+        padding: 0.6rem 1rem;
       }
 
       .part-header {
-        margin: -2.5rem -3rem 2.5rem -3rem;
-        padding: 3rem;
+        margin: -1.25rem -2rem 1.5rem -2rem;
+        padding: 1.5rem 2rem;
         border-radius: 0;
       }
 
       .part-header h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
 
     @media (min-width: 1200px) {
       .main-content {
-        max-width: 900px;
+        max-width: 850px;
       }
     }
   </style>
@@ -752,7 +751,7 @@
         <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' or page.lang == nil %}class="active"{% endif %}>EN</a>
         <a href="{{ '/de/' | relative_url }}" {% if page.lang == 'de' %}class="active"{% endif %}>DE</a>
       </div>
-      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme" id="theme-toggle">☀️</button>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme" id="theme-toggle">Light</button>
       <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Menu">☰</button>
     </div>
   </header>
@@ -848,7 +847,7 @@
     function updateThemeIcon(theme) {
       const btn = document.getElementById('theme-toggle');
       if (btn) {
-        btn.textContent = theme === 'dark' ? '🌙' : '☀️';
+        btn.textContent = theme === 'dark' ? 'Dark' : 'Light';
       }
     }
 
