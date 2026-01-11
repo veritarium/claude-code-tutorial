@@ -40,58 +40,6 @@ Sie ersetzen sich nicht durch KI. Sie verstärken sich. Denken Sie an Elektrower
 
 ---
 
-## Probieren Sie es selbst aus
-
-Machen wir diese Partnerschaft konkret mit Ihrem ersten Programm. Dieses einfache Beispiel demonstriert die Kerninteraktion: Sie geben Input, KI-generierter Code verarbeitet ihn, und Sie erhalten nützlichen Output.
-
-Erstellen Sie eine neue Datei namens `hallo_partner.py` und fügen Sie diesen Code ein:
-
-```python
-# hallo_partner.py
-# Ihr erstes KI-gestütztes Programm
-
-# Informationen vom Benutzer abrufen
-name = input("Wie heißen Sie? ")
-beruf = input("Was für ein Ingenieur sind Sie? ")
-
-# Eine personalisierte Nachricht erstellen
-nachricht = f"Hallo, {name}! Als {beruf} werden Sie gleich entdecken, "
-nachricht += "wie KI Ihnen helfen kann, Software zu bauen, ohne Programmierer zu werden."
-
-# Das Ergebnis anzeigen
-print()
-print("=" * 50)
-print(nachricht)
-print("=" * 50)
-print()
-print("Diese Nachricht wurde von Code erstellt, den SIE gesteuert haben.")
-print("Die Partnerschaft hat begonnen.")
-```
-
-Führen Sie diese Datei von Ihrem Terminal aus:
-
-```bash
-python hallo_partner.py
-```
-
-**Erwartete Ausgabe:**
-
-```
-Wie heißen Sie? Sarah
-Was für ein Ingenieur sind Sie? Maschinenbauingenieurin
-
-==================================================
-Hallo, Sarah! Als Maschinenbauingenieurin werden Sie gleich entdecken, wie KI Ihnen helfen kann, Software zu bauen, ohne Programmierer zu werden.
-==================================================
-
-Diese Nachricht wurde von Code erstellt, den SIE gesteuert haben.
-Die Partnerschaft hat begonnen.
-```
-
-Dieses kleine Programm demonstriert das Kernprinzip. Sie mussten nicht wissen, dass `input()` Benutzereingaben erfasst, dass `f"..."` formatierte Zeichenketten erstellt, oder dass `print()` Ausgaben anzeigt. Sie müssen nur verstehen, was das Programm *tut*—und ob es das tut, was Sie wollen.
-
----
-
 ## Wichtigste Erkenntnis
 
 Die Partnerschaft zwischen Ihnen und KI bedeutet nicht, dass KI Ihre Arbeit erledigt. Es geht darum, Ihr Fachwissen mit den Programmierfähigkeiten der KI zu kombinieren, um Dinge zu bauen, die keiner allein bauen könnte. Sie behalten die Kontrolle. Sie geben die Richtung vor. Sie beurteilen die Ergebnisse. KI kümmert sich nur um die Syntax.
