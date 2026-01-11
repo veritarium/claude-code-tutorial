@@ -5,17 +5,9 @@ markdown: GFM
 
 exclude:
   - README.md
-  - NARRATION-SCRIPTS.md
   - VISION.md
   - CLAUDE.md
-  - METHOD.md
-  - CONCEPTS.md
-  - ARRANGE.md
-  - SPLIT.md
-  - drawings/
-  - diagrams/WORKFLOW.md
-  - diagrams/DESIGN-SYSTEM.md
-  - create_presentation.py
+  - LICENSE
+  - diagrams/
   - From-NonCoder-to-Builder.pptx
   - From-NonCoder-to-Builder.pdf
-  - .venv/
