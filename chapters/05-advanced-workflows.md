@@ -569,4 +569,4 @@ The best way to improve is practice. Start using Claude Code on real projects an
 
 ---
 
-[← Previous: Terminal Commands](04-terminal-commands.md) | [Home](../README.md)
+[← Previous: Terminal Commands](04-terminal-commands.md) | [Home](../README.md) | [Next: MCP Servers →](06-mcp-servers.md)

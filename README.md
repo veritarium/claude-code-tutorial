@@ -57,6 +57,14 @@ Claude Code is Anthropic's official CLI tool that brings AI-powered assistance d
 - Performance optimization
 - Database and multi-service workflows
 
+### [Chapter 6: MCP Servers](chapters/06-mcp-servers.md)
+- What is MCP (Model Context Protocol)
+- Configuring MCP servers
+- Common setups: PostgreSQL, GitHub, Slack, Puppeteer
+- Using multiple servers together
+- Building custom MCP servers
+- Security considerations
+
 ## Quick Start
 
 1. Install Claude Code:

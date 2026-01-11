@@ -16,6 +16,7 @@ chapters/           # Tutorial chapters in markdown format
   03-files-and-code.md
   04-terminal-commands.md
   05-advanced-workflows.md
+  06-mcp-servers.md
 RFC-0001A.txt       # Project planning document
 ```
 
