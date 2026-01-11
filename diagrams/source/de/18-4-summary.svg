@@ -77,7 +77,7 @@
   <!-- The formula -->
   <rect x="200" y="540" width="768" height="100" fill="#ffffff" stroke="#091358" stroke-width="3"/>
   <text x="584" y="580" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#091358" text-anchor="middle">The Formula for Success</text>
-  <text x="584" y="615" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#0d0829" text-anchor="middle">Clear Goal + Small Steps + Iteration + Persistence = Working Code</text>
+  <text x="584" y="615" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#0d0829" text-anchor="middle">Klares Ziel + Kleine Schritte + Iteration + Ausdauer = Funktionierender Code</text>
 
   <!-- Final message -->
   <rect x="150" y="670" width="868" height="60" fill="url(#deepBlue)"/>

@@ -690,6 +690,116 @@ TRANSLATIONS = {
     # Summary/Key takeaways diagram
     "What you've learned and where you're going": "Was du gelernt hast und wohin du gehst",
     "Everything in one page": "Alles auf einer Seite",
+
+    # Cheat sheet - Header
+    "FROM NON-CODER TO BUILDER": "VOM NICHT-PROGRAMMIERER ZUM BUILDER",
+    "Quick Reference Cheat Sheet": "Kurzreferenz-Spickzettel",
+
+    # Cheat sheet - Core partnership
+    "YOU + AI = BUILDER  |  You: Direction &amp; Judgment  |  AI: Code &amp; Speed": "DU + KI = BUILDER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo",
+
+    # Cheat sheet - Loop section
+    "DESCRIBE → GET → RUN → EVALUATE": "BESCHREIBEN → ERHALTEN → AUSFÜHREN → BEWERTEN",
+    "1. Describe what you want in plain English": "1. Beschreibe, was du willst, in einfachen Worten",
+    "2. Get code from AI (don't worry if you don't understand)": "2. Erhalte Code von KI (keine Sorge, wenn du es nicht verstehst)",
+    "3. Run it → 4. Evaluate results → Repeat until it works": "3. Führe es aus → 4. Bewerte Ergebnisse → Wiederhole bis es funktioniert",
+
+    # Cheat sheet - Decomposition section
+    "BIG TASK → SMALL TASKS": "GROSSE AUFGABE → KLEINE AUFGABEN",
+    "Rule: If it takes more than one sentence, split it": "Regel: Wenn es mehr als einen Satz braucht, teile es auf",
+    "Each piece should be testable independently": "Jedes Teil sollte unabhängig testbar sein",
+    "Build one piece at a time, verify, then continue": "Baue ein Teil nach dem anderen, überprüfe, dann weiter",
+
+    # Cheat sheet - Effective Prompts
+    "EFFECTIVE PROMPTS": "EFFEKTIVE PROMPTS",
+    'Bad: "Make it work"': 'Schlecht: "Mach es fertig"',
+    "Good: Include these 5 elements:": "Gut: Diese 5 Elemente einschließen:",
+    '• WHAT: "Create a function that calculates..."': '• WAS: "Erstelle eine Funktion, die berechnet..."',
+    '• WHERE: "In Python, add to the existing file..."': '• WO: "In Python, zur bestehenden Datei hinzufügen..."',
+    '• HOW: "Use the formula: stress = force / area"': '• WIE: "Benutze die Formel: Spannung = Kraft / Fläche"',
+    '• WHY: "This will be used for safety checks"': '• WARUM: "Das wird für Sicherheitsprüfungen verwendet"',
+
+    # Cheat sheet - Feedback section
+    "GIVING FEEDBACK": "FEEDBACK GEBEN",
+    "GOT X, EXPECTED Y, CHANGE Z": "ERHALTEN X, ERWARTET Y, ÄNDERE Z",
+    '• "I got [actual result]"': '• "Ich habe [tatsächliches Ergebnis] bekommen"',
+    '• "I expected [what you wanted]"': '• "Ich habe [was du wolltest] erwartet"',
+    '• "Please change [specific thing]"': '• "Bitte ändere [spezifische Sache]"',
+    "Include error messages, screenshots, examples": "Fehlermeldungen, Screenshots, Beispiele einschließen",
+
+    # Cheat sheet - Debugging section
+    "DEBUGGING ERRORS": "FEHLER DEBUGGEN",
+    "Syntax Error:": "Syntaxfehler:",
+    "Typo - check spelling, brackets, colons": "Tippfehler - prüfe Rechtschreibung, Klammern, Doppelpunkte",
+    "Name Error:": "Namensfehler:",
+    "Variable doesn't exist - check spelling": "Variable existiert nicht - prüfe Rechtschreibung",
+    "Type Error:": "Typfehler:",
+    "Wrong data type - string vs number": "Falscher Datentyp - String vs Zahl",
+    "Index Error:": "Indexfehler:",
+    "List position doesn't exist": "Listenposition existiert nicht",
+    "Copy full error message → Paste to AI → Ask for fix": "Komplette Fehlermeldung kopieren → An KI einfügen → Nach Lösung fragen",
+
+    # Cheat sheet - 5-Attempt Rule
+    "STUCK AFTER 5 TRIES? RESTART FRESH": "NACH 5 VERSUCHEN FESTSTECKEN? NEU ANFANGEN",
+    "1. Start new conversation (clear context)": "1. Neue Konversation starten (Kontext löschen)",
+    "2. Rephrase the problem differently": "2. Das Problem anders formulieren",
+    "3. Break into smaller pieces": "3. In kleinere Teile aufteilen",
+    "Sunk cost fallacy is real - cut losses early": "Versunkene Kosten sind real - Verluste früh begrenzen",
+
+    # Cheat sheet - Reading Code
+    "READING CODE": "CODE LESEN",
+    "Variables:": "Variablen:",
+    "Named boxes storing values (x = 5)": "Benannte Kisten, die Werte speichern (x = 5)",
+    "Functions:": "Funktionen:",
+    "Reusable recipes (def calculate():)": "Wiederverwendbare Rezepte (def calculate():)",
+    "Conditionals:": "Bedingungen:",
+    "Decisions (if/else)": "Entscheidungen (if/else)",
+    "Loops:": "Schleifen:",
+    "Repeat actions (for, while)": "Aktionen wiederholen (for, while)",
+    "Lists:": "Listen:",
+    "Collections ([1, 2, 3]) - Dicts: key-value pairs": "Sammlungen ([1, 2, 3]) - Dicts: Schlüssel-Wert-Paare",
+
+    # Cheat sheet - Sharing Context
+    "SHARING CONTEXT": "KONTEXT TEILEN",
+    "AI ONLY KNOWS WHAT YOU TELL IT": "KI WEISS NUR, WAS DU IHR SAGST",
+    "Always include:": "Immer einschließen:",
+    "• Your existing code (paste it)": "• Dein bestehender Code (einfügen)",
+    "• Full error messages (copy exactly)": "• Vollständige Fehlermeldungen (exakt kopieren)",
+    "• What you've already tried": "• Was du bereits versucht hast",
+
+    # Cheat sheet - Trust Levels
+    "AI TRUST LEVELS": "KI-VERTRAUENSSTUFEN",
+    "High trust:": "Hohes Vertrauen:",
+    "Syntax, boilerplate": "Syntax, Standardcode",
+    "Medium:": "Mittel:",
+    "Logic, algorithms": "Logik, Algorithmen",
+    "Verify:": "Überprüfen:",
+    "Business logic, edge cases": "Geschäftslogik, Grenzfälle",
+    "Always test:": "Immer testen:",
+    "Security, data": "Sicherheit, Daten",
+
+    # Cheat sheet - When Stuck
+    "WHEN STUCK": "WENN FESTSTECKEN",
+    "1. Ask AI with full context": "1. KI mit vollem Kontext fragen",
+    "2. Search the error online": "2. Fehler online suchen",
+    "3. Rephrase the question": "3. Die Frage umformulieren",
+    "4. Break into smaller parts": "4. In kleinere Teile aufteilen",
+
+    # Cheat sheet - Formula
+    "Clear Goal + Small Steps + Iteration + Persistence = Working Code": "Klares Ziel + Kleine Schritte + Iteration + Ausdauer = Funktionierender Code",
+
+    # Cheat sheet - Quick Commands
+    "QUICK PYTHON COMMANDS": "SCHNELLE PYTHON-BEFEHLE",
+
+    # Cheat sheet - Magic Phrases
+    "MAGIC PHRASES FOR AI": "ZAUBERSPRÜCHE FÜR KI",
+    '"Explain like I\'m new"': '"Erkläre es mir als Anfänger"',
+    '"What does this error mean?"': '"Was bedeutet dieser Fehler?"',
+    '"Show me step by step"': '"Zeig mir Schritt für Schritt"',
+    '"What am I missing?"': '"Was fehlt mir?"',
+
+    # Cheat sheet - Footer
+    "You don't need to know everything to build something useful. Start building!": "Du musst nicht alles wissen, um etwas Nützliches zu bauen. Fang an zu bauen!",
 }
 
 def translate_svg(input_path: Path, output_path: Path):

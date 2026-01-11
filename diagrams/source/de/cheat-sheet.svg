@@ -36,100 +36,100 @@
 
   <!-- Header -->
   <rect x="0" y="0" width="827" height="70" fill="url(#darkNavy)"/>
-  <text x="413" y="35" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">FROM NON-CODER TO BUILDER</text>
-  <text x="413" y="58" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Quick Reference Cheat Sheet</text>
+  <text x="413" y="35" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">VOM NICHT-PROGRAMMIERER ZUM BUILDER</text>
+  <text x="413" y="58" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Kurzreferenz-Spickzettel</text>
 
   <!-- Core Partnership -->
   <rect x="20" y="85" width="787" height="50" fill="url(#deepBlue)"/>
-  <text x="413" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">YOU + AI = BUILDER  |  You: Direction &amp; Judgment  |  AI: Code &amp; Speed</text>
+  <text x="413" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">DU + KI = BUILDER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo</text>
 
   <!-- THE LOOP - Left Column -->
   <rect x="20" y="150" width="385" height="130" fill="url(#steelBlue)"/>
   <text x="212" y="175" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">DIE SCHLEIFE</text>
   <rect x="30" y="185" width="365" height="85" fill="#ffffff"/>
-  <text x="212" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">DESCRIBE → GET → RUN → EVALUATE</text>
-  <text x="45" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. Describe what you want in plain English</text>
-  <text x="45" y="252" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Get code from AI (don't worry if you don't understand)</text>
-  <text x="45" y="269" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">3. Run it → 4. Evaluate results → Repeat until it works</text>
+  <text x="212" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">BESCHREIBEN → ERHALTEN → AUSFÜHREN → BEWERTEN</text>
+  <text x="45" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. Beschreibe, was du willst, in einfachen Worten</text>
+  <text x="45" y="252" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Erhalte Code von KI (keine Sorge, wenn du es nicht verstehst)</text>
+  <text x="45" y="269" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">3. Führe es aus → 4. Bewerte Ergebnisse → Wiederhole bis es funktioniert</text>
 
   <!-- DECOMPOSITION - Right Column -->
   <rect x="422" y="150" width="385" height="130" fill="url(#deepBlue)"/>
   <text x="614" y="175" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">ZERLEGUNG</text>
   <rect x="432" y="185" width="365" height="85" fill="#ffffff"/>
-  <text x="614" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">BIG TASK → SMALL TASKS</text>
-  <text x="447" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Rule: If it takes more than one sentence, split it</text>
-  <text x="447" y="252" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Each piece should be testable independently</text>
-  <text x="447" y="269" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Build one piece at a time, verify, then continue</text>
+  <text x="614" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#091358" text-anchor="middle">GROSSE AUFGABE → KLEINE AUFGABEN</text>
+  <text x="447" y="235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Regel: Wenn es mehr als einen Satz braucht, teile es auf</text>
+  <text x="447" y="252" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Jedes Teil sollte unabhängig testbar sein</text>
+  <text x="447" y="269" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Baue ein Teil nach dem anderen, überprüfe, dann weiter</text>
 
   <!-- PROMPTING -->
   <rect x="20" y="295" width="385" height="155" fill="url(#deepBlue)"/>
-  <text x="212" y="320" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">EFFECTIVE PROMPTS</text>
+  <text x="212" y="320" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">EFFEKTIVE PROMPTS</text>
   <rect x="30" y="330" width="365" height="110" fill="#ffffff"/>
-  <text x="45" y="350" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Bad: "Make it work"</text>
-  <text x="45" y="367" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Good: Include these 5 elements:</text>
-  <text x="55" y="384" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WHAT: "Create a function that calculates..."</text>
-  <text x="55" y="399" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WHERE: "In Python, add to the existing file..."</text>
-  <text x="55" y="414" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• HOW: "Use the formula: stress = force / area"</text>
-  <text x="55" y="429" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WHY: "This will be used for safety checks"</text>
+  <text x="45" y="350" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Schlecht: "Mach es fertig"</text>
+  <text x="45" y="367" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Gut: Diese 5 Elemente einschließen:</text>
+  <text x="55" y="384" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WAS: "Erstelle eine Funktion, die berechnet..."</text>
+  <text x="55" y="399" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WO: "In Python, zur bestehenden Datei hinzufügen..."</text>
+  <text x="55" y="414" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WIE: "Benutze die Formel: Spannung = Kraft / Fläche"</text>
+  <text x="55" y="429" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• WARUM: "Das wird für Sicherheitsprüfungen verwendet"</text>
 
   <!-- FEEDBACK -->
   <rect x="422" y="295" width="385" height="155" fill="url(#steelBlue)"/>
-  <text x="614" y="320" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">GIVING FEEDBACK</text>
+  <text x="614" y="320" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">FEEDBACK GEBEN</text>
   <rect x="432" y="330" width="365" height="110" fill="#ffffff"/>
-  <text x="614" y="350" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#091358" text-anchor="middle">GOT X, EXPECTED Y, CHANGE Z</text>
-  <text x="447" y="372" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "I got [actual result]"</text>
-  <text x="447" y="389" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "I expected [what you wanted]"</text>
-  <text x="447" y="406" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "Please change [specific thing]"</text>
-  <text x="447" y="428" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Include error messages, screenshots, examples</text>
+  <text x="614" y="350" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#091358" text-anchor="middle">ERHALTEN X, ERWARTET Y, ÄNDERE Z</text>
+  <text x="447" y="372" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "Ich habe [tatsächliches Ergebnis] bekommen"</text>
+  <text x="447" y="389" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "Ich habe [was du wolltest] erwartet"</text>
+  <text x="447" y="406" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• "Bitte ändere [spezifische Sache]"</text>
+  <text x="447" y="428" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Fehlermeldungen, Screenshots, Beispiele einschließen</text>
 
   <!-- DEBUGGING -->
   <rect x="20" y="465" width="385" height="145" fill="url(#steelBlue)"/>
-  <text x="212" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">DEBUGGING ERRORS</text>
+  <text x="212" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">FEHLER DEBUGGEN</text>
   <rect x="30" y="500" width="365" height="100" fill="#ffffff"/>
-  <text x="45" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Syntax Error:</text>
-  <text x="140" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Typo - check spelling, brackets, colons</text>
-  <text x="45" y="538" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Name Error:</text>
-  <text x="130" y="538" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Variable doesn't exist - check spelling</text>
-  <text x="45" y="556" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Type Error:</text>
-  <text x="125" y="556" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Wrong data type - string vs number</text>
-  <text x="45" y="574" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Index Error:</text>
-  <text x="130" y="574" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">List position doesn't exist</text>
-  <text x="45" y="592" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Copy full error message → Paste to AI → Ask for fix</text>
+  <text x="45" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Syntaxfehler:</text>
+  <text x="140" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Tippfehler - prüfe Rechtschreibung, Klammern, Doppelpunkte</text>
+  <text x="45" y="538" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Namensfehler:</text>
+  <text x="130" y="538" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Variable existiert nicht - prüfe Rechtschreibung</text>
+  <text x="45" y="556" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Typfehler:</text>
+  <text x="125" y="556" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Falscher Datentyp - String vs Zahl</text>
+  <text x="45" y="574" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Indexfehler:</text>
+  <text x="130" y="574" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Listenposition existiert nicht</text>
+  <text x="45" y="592" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Komplette Fehlermeldung kopieren → An KI einfügen → Nach Lösung fragen</text>
 
   <!-- THE 5-ATTEMPT RULE -->
   <rect x="422" y="465" width="385" height="145" fill="url(#badRed)"/>
   <text x="614" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">DIE 5-VERSUCH-REGEL</text>
   <rect x="432" y="500" width="365" height="100" fill="#ffffff"/>
-  <text x="614" y="525" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#b60002" text-anchor="middle">STUCK AFTER 5 TRIES? RESTART FRESH</text>
-  <text x="447" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. Start new conversation (clear context)</text>
-  <text x="447" y="567" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Rephrase the problem differently</text>
-  <text x="447" y="584" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">3. Break into smaller pieces</text>
-  <text x="447" y="598" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Sunk cost fallacy is real - cut losses early</text>
+  <text x="614" y="525" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#b60002" text-anchor="middle">NACH 5 VERSUCHEN FESTSTECKEN? NEU ANFANGEN</text>
+  <text x="447" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. Neue Konversation starten (Kontext löschen)</text>
+  <text x="447" y="567" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Das Problem anders formulieren</text>
+  <text x="447" y="584" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">3. In kleinere Teile aufteilen</text>
+  <text x="447" y="598" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-style="italic">Versunkene Kosten sind real - Verluste früh begrenzen</text>
 
   <!-- CODE READING -->
   <rect x="20" y="625" width="385" height="145" fill="url(#deepBlue)"/>
-  <text x="212" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">READING CODE</text>
+  <text x="212" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">CODE LESEN</text>
   <rect x="30" y="660" width="365" height="100" fill="#ffffff"/>
-  <text x="45" y="680" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Variables:</text>
-  <text x="110" y="680" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Named boxes storing values (x = 5)</text>
-  <text x="45" y="697" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Functions:</text>
-  <text x="110" y="697" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Reusable recipes (def calculate():)</text>
-  <text x="45" y="714" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Conditionals:</text>
-  <text x="120" y="714" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Decisions (if/else)</text>
-  <text x="45" y="731" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Loops:</text>
-  <text x="85" y="731" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Repeat actions (for, while)</text>
-  <text x="45" y="748" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Lists:</text>
-  <text x="80" y="748" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Collections ([1, 2, 3]) - Dicts: key-value pairs</text>
+  <text x="45" y="680" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Variablen:</text>
+  <text x="110" y="680" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Benannte Kisten, die Werte speichern (x = 5)</text>
+  <text x="45" y="697" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Funktionen:</text>
+  <text x="110" y="697" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Wiederverwendbare Rezepte (def calculate():)</text>
+  <text x="45" y="714" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Bedingungen:</text>
+  <text x="120" y="714" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Entscheidungen (if/else)</text>
+  <text x="45" y="731" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Schleifen:</text>
+  <text x="85" y="731" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Aktionen wiederholen (for, while)</text>
+  <text x="45" y="748" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Listen:</text>
+  <text x="80" y="748" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Sammlungen ([1, 2, 3]) - Dicts: Schlüssel-Wert-Paare</text>
 
   <!-- CONTEXT SHARING -->
   <rect x="422" y="625" width="385" height="145" fill="url(#steelBlue)"/>
-  <text x="614" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">SHARING CONTEXT</text>
+  <text x="614" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">KONTEXT TEILEN</text>
   <rect x="432" y="660" width="365" height="100" fill="#ffffff"/>
-  <text x="614" y="685" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#091358" text-anchor="middle">AI ONLY KNOWS WHAT YOU TELL IT</text>
-  <text x="447" y="708" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Always include:</text>
-  <text x="447" y="723" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• Your existing code (paste it)</text>
-  <text x="447" y="738" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• Full error messages (copy exactly)</text>
-  <text x="447" y="753" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• What you've already tried</text>
+  <text x="614" y="685" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#091358" text-anchor="middle">KI WEISS NUR, WAS DU IHR SAGST</text>
+  <text x="447" y="708" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Immer einschließen:</text>
+  <text x="447" y="723" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• Dein bestehender Code (einfügen)</text>
+  <text x="447" y="738" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• Vollständige Fehlermeldungen (exakt kopieren)</text>
+  <text x="447" y="753" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">• Was du bereits versucht hast</text>
 
   <!-- PROJECT STRUCTURE -->
   <rect x="20" y="785" width="260" height="130" fill="url(#steelBlue)"/>
@@ -143,33 +143,33 @@
 
   <!-- TRUST LEVELS -->
   <rect x="295" y="785" width="250" height="130" fill="url(#deepBlue)"/>
-  <text x="420" y="810" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">AI TRUST LEVELS</text>
+  <text x="420" y="810" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">KI-VERTRAUENSSTUFEN</text>
   <rect x="305" y="820" width="230" height="85" fill="#ffffff"/>
-  <text x="315" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">High trust:</text>
-  <text x="375" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Syntax, boilerplate</text>
-  <text x="315" y="858" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-weight="bold">Medium:</text>
-  <text x="370" y="858" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Logic, algorithms</text>
-  <text x="315" y="876" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Verify:</text>
-  <text x="355" y="876" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Business logic, edge cases</text>
-  <text x="315" y="894" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Always test:</text>
-  <text x="380" y="894" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Security, data</text>
+  <text x="315" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" font-weight="bold">Hohes Vertrauen:</text>
+  <text x="375" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Syntax, Standardcode</text>
+  <text x="315" y="858" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" font-weight="bold">Mittel:</text>
+  <text x="370" y="858" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Logik, Algorithmen</text>
+  <text x="315" y="876" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Überprüfen:</text>
+  <text x="355" y="876" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Geschäftslogik, Grenzfälle</text>
+  <text x="315" y="894" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b60002" font-weight="bold">Immer testen:</text>
+  <text x="380" y="894" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">Sicherheit, Daten</text>
 
   <!-- WHEN STUCK -->
   <rect x="560" y="785" width="247" height="130" fill="url(#badRed)"/>
-  <text x="683" y="810" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">WHEN STUCK</text>
+  <text x="683" y="810" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">WENN FESTSTECKEN</text>
   <rect x="570" y="820" width="227" height="85" fill="#ffffff"/>
-  <text x="580" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. Ask AI with full context</text>
-  <text x="580" y="857" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Search the error online</text>
-  <text x="580" y="874" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">3. Rephrase the question</text>
-  <text x="580" y="891" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">4. Break into smaller parts</text>
+  <text x="580" y="840" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">1. KI mit vollem Kontext fragen</text>
+  <text x="580" y="857" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">2. Fehler online suchen</text>
+  <text x="580" y="874" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">3. Die Frage umformulieren</text>
+  <text x="580" y="891" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d0829">4. In kleinere Teile aufteilen</text>
 
   <!-- Formula -->
   <rect x="20" y="930" width="787" height="45" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="413" y="960" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">Clear Goal + Small Steps + Iteration + Persistence = Working Code</text>
+  <text x="413" y="960" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">Klares Ziel + Kleine Schritte + Iteration + Ausdauer = Funktionierender Code</text>
 
   <!-- Quick Commands -->
   <rect x="20" y="990" width="787" height="75" fill="url(#steelBlue)"/>
-  <text x="413" y="1015" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">QUICK PYTHON COMMANDS</text>
+  <text x="413" y="1015" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">SCHNELLE PYTHON-BEFEHLE</text>
   <rect x="30" y="1025" width="767" height="30" fill="#ffffff"/>
   <text x="45" y="1045" font-family="Courier, monospace" font-size="13" fill="#091358">python script.py</text>
   <text x="180" y="1045" font-family="Courier, monospace" font-size="13" fill="#091358">pip install package</text>
@@ -178,13 +178,13 @@
 
   <!-- Key Prompts -->
   <rect x="20" y="1080" width="787" height="55" fill="url(#deepBlue)"/>
-  <text x="413" y="1102" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">MAGIC PHRASES FOR AI</text>
-  <text x="130" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Explain like I'm new"</text>
-  <text x="320" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"What does this error mean?"</text>
-  <text x="510" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Show me step by step"</text>
-  <text x="700" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"What am I missing?"</text>
+  <text x="413" y="1102" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">ZAUBERSPRÜCHE FÜR KI</text>
+  <text x="130" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Erkläre es mir als Anfänger"</text>
+  <text x="320" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Was bedeutet dieser Fehler?"</text>
+  <text x="510" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Zeig mir Schritt für Schritt"</text>
+  <text x="700" y="1122" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">"Was fehlt mir?"</text>
 
   <!-- Footer -->
   <rect x="0" y="1145" width="827" height="24" fill="url(#darkNavy)"/>
-  <text x="413" y="1162" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">You don't need to know everything to build something useful. Start building!</text>
+  <text x="413" y="1162" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Du musst nicht alles wissen, um etwas Nützliches zu bauen. Fang an zu bauen!</text>
 </svg>
