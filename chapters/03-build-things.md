@@ -19,7 +19,37 @@ Then test it:
 Create a sample data.csv with 10 rows including some missing values, then run the script
 ```
 
-## Project 2: File Organizer
+## Project 2: Engineering Calculator
+
+Automate calculations you do repeatedly.
+
+```
+Create a Python script that:
+1. Takes beam length, load, and material as inputs
+2. Looks up Young's modulus from a materials dictionary
+3. Calculates maximum deflection for a simply supported beam with center load
+4. Outputs deflection in mm and whether it exceeds L/360 serviceability limit
+```
+
+Extend it:
+```
+Add support for cantilever and fixed-end beams. Let me choose the beam type.
+```
+
+## Project 3: Unit Converter
+
+Never look up conversions again.
+
+```
+Create a script that converts between:
+1. Metric and imperial lengths (mm, in, ft, m)
+2. Pressure units (Pa, psi, bar, atm)
+3. Temperature (C, F, K)
+
+Make it interactive - ask what to convert, then give the result.
+```
+
+## Project 4: File Organizer
 
 Automate tedious file management.
 
@@ -31,7 +61,7 @@ Create a script that:
 4. Moves everything else to "other"
 ```
 
-## Project 3: Web Scraper
+## Project 5: Web Scraper
 
 Extract information from websites.
 
@@ -42,7 +72,7 @@ Create a Python script that:
 3. Saves them to headlines.txt
 ```
 
-## Project 4: Simple API
+## Project 6: Simple API
 
 Build a web service.
 
@@ -60,7 +90,7 @@ Test it:
 Start the API and test each endpoint with curl
 ```
 
-## Project 5: Automation Script
+## Project 7: Automation Script
 
 Automate a repetitive task.
 
@@ -73,7 +103,7 @@ Create a script that:
 Set it up to run in the background.
 ```
 
-## Project 6: Dashboard
+## Project 8: Dashboard
 
 Visualize your data.
 
