@@ -15,10 +15,6 @@ languages:
     label: "Deutsch"
     title: "Vom Nicht-Programmierer zum Builder"
     dir: "ltr"
-  fa:
-    label: "فارسی"
-    title: "از غیربرنامه‌نویس به سازنده"
-    dir: "rtl"
 
 exclude:
   - README.md
