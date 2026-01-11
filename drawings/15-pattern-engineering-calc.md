@@ -176,4 +176,4 @@ The formulas you already know become reusable tools. Build once, use forever. Le
 
 ---
 
-[← Testing Pattern](14-pattern-testing.md) | [Home](../README.md)
+[← Testing Pattern](14-pattern-testing.md) | [Next: Complete Project →](16-complete-project.md)

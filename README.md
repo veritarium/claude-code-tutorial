@@ -46,6 +46,7 @@ claude
 | 13 | [Debugging](drawings/13-pattern-debugging.md) | Finding and fixing problems |
 | 14 | [Testing](drawings/14-pattern-testing.md) | Verifying code works correctly |
 | 15 | [Engineering Calculation](drawings/15-pattern-engineering-calc.md) | Formulas, units, design checks |
+| 16 | [Complete Project](drawings/16-complete-project.md) | Idea to working software |
 
 ---
 
