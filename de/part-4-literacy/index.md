@@ -19,7 +19,7 @@ Diese Kapitel geben dir genug Wissen, um:
 - Intelligente Fragen über Code zu stellen
 - Zu verstehen, was KI für dich erstellt hat
 
-Das ist keine traditionelle Programmierausbildung. Es ist genau das, was du als KI-gestützter Builder brauchst.
+Das ist keine traditionelle Programmierausbildung. Es ist genau das, was du als KI-Programmierer brauchst.
 
 ---
 

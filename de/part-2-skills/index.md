@@ -10,7 +10,7 @@ dir: ltr
   <p>Die Techniken, die dich effektiv machen.</p>
 </div>
 
-Jetzt, da du die Grundlagen verstehst, ist es Zeit, die Fähigkeiten zu entwickeln, die kämpfende Anfänger von effektiven Buildern unterscheiden.
+Jetzt, da du die Grundlagen verstehst, ist es Zeit, die Fähigkeiten zu entwickeln, die kämpfende Anfänger von effektiven KI-Programmierern unterscheiden.
 
 Diese fünf Kapitel lehren dich die praktischen Techniken:
 

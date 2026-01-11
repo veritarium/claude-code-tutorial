@@ -692,11 +692,11 @@ TRANSLATIONS = {
     "Everything in one page": "Alles auf einer Seite",
 
     # Cheat sheet - Header
-    "FROM NON-CODER TO BUILDER": "VOM NICHT-PROGRAMMIERER ZUM BUILDER",
+    "FROM NON-CODER TO BUILDER": "VOM NICHT-PROGRAMMIERER ZUM KI-PROGRAMMIERER",
     "Quick Reference Cheat Sheet": "Kurzreferenz-Spickzettel",
 
     # Cheat sheet - Core partnership
-    "YOU + AI = BUILDER  |  You: Direction &amp; Judgment  |  AI: Code &amp; Speed": "DU + KI = BUILDER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo",
+    "YOU + AI = BUILDER  |  You: Direction &amp; Judgment  |  AI: Code &amp; Speed": "DU + KI = PROGRAMMIERER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo",
 
     # Cheat sheet - Loop section
     "DESCRIBE → GET → RUN → EVALUATE": "BESCHREIBEN → ERHALTEN → AUSFÜHREN → BEWERTEN",

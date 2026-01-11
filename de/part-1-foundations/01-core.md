@@ -15,7 +15,7 @@ next_title: "Die Schleife"
 
 Beginnen wir mit dem wichtigsten Konzept in diesem gesamten Tutorial.
 
-Sie müssen kein Programmierer werden. Sie müssen ein *Builder* werden.
+Sie müssen kein Programmierer werden. Sie müssen lernen, *mit KI zu programmieren*.
 
 ![Die Kernpartnerschaft](/code-with-ai/assets/images/diagrams/de/01-1-the-core.png)
 {: .chapter-diagram}

@@ -36,12 +36,12 @@
 
   <!-- Header -->
   <rect x="0" y="0" width="827" height="70" fill="url(#darkNavy)"/>
-  <text x="413" y="35" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">VOM NICHT-PROGRAMMIERER ZUM BUILDER</text>
+  <text x="413" y="35" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">VOM NICHT-PROGRAMMIERER ZUM KI-PROGRAMMIERER</text>
   <text x="413" y="58" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" text-anchor="middle">Kurzreferenz-Spickzettel</text>
 
   <!-- Core Partnership -->
   <rect x="20" y="85" width="787" height="50" fill="url(#deepBlue)"/>
-  <text x="413" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">DU + KI = BUILDER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo</text>
+  <text x="413" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">DU + KI = PROGRAMMIERER  |  Du: Richtung &amp; Urteil  |  KI: Code &amp; Tempo</text>
 
   <!-- THE LOOP - Left Column -->
   <rect x="20" y="150" width="385" height="130" fill="url(#steelBlue)"/>

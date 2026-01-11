@@ -18,7 +18,7 @@ Lade die einseitige PDF-Zusammenfassung von allem herunter, was du gelernt hast.
 ## Was enthalten ist
 
 ### Die Kernpartnerschaft
-**DU + KI = BUILDER**
+**DU + KI = PROGRAMMIERER**
 - Du lieferst: Richtung, Urteil, Fachwissen
 - KI liefert: Code, Tempo, Syntaxwissen
 

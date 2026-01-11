@@ -5,10 +5,10 @@ lang: de
 dir: ltr
 ---
 
-# Vom Nicht-Programmierer zum Builder
-## Programmieren mit KI für Ingenieure
+# Vom Nicht-Programmierer zum KI-Programmierer
+## Programmieren mit KI für Leute ohne Programmierkenntnisse
 
-Ein visuelles Tutorial für kluge Menschen, die noch nicht programmieren.
+Ein visuelles Tutorial für Leute, die noch nicht programmieren.
 
 <a href="{{ site.baseurl }}/de/part-1-foundations/01-core" class="btn-primary">Tutorial starten</a> &nbsp; <a href="{{ site.baseurl }}/Spickzettel.pdf" class="btn-primary" style="background:#6882a1;">Spickzettel herunterladen (PDF)</a>
 
