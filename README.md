@@ -41,6 +41,8 @@ claude
 | 08 | [Data Pipeline](drawings/08-pattern-pipeline.md) | Processing data from input to output |
 | 09 | [Web App](drawings/09-pattern-webapp.md) | Building interactive applications |
 | 10 | [Build Incrementally](drawings/10-build-incrementally.md) | Small verified steps |
+| 11 | [Automation](drawings/11-pattern-automation.md) | Triggers, actions, scheduled tasks |
+| 12 | [API](drawings/12-pattern-api.md) | Request/response, endpoints, CRUD |
 
 ---
 

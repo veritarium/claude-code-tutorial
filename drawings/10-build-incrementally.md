@@ -89,4 +89,4 @@ The fastest way to build big things is lots of small correct steps. Resist the u
 
 ---
 
-[← Web App Pattern](09-pattern-webapp.md) | [Home](../README.md)
+[← Web App Pattern](09-pattern-webapp.md) | [Next: Automation Pattern →](11-pattern-automation.md)
