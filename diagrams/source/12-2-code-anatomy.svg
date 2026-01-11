@@ -66,7 +66,7 @@
   <line x1="260" y1="265" x2="300" y2="195" stroke="#6882a1" stroke-width="2"/>
 
   <!-- Condition label -->
-  <rect x="908" y="190" width="200" height="50" fill="url(#brightRed)"/>
+  <rect x="908" y="190" width="200" height="50" fill="url(#badRed)"/>
   <text x="1008" y="220" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">CONDITION</text>
   <line x1="908" y1="215" x2="868" y2="225" stroke="#b60002" stroke-width="2"/>
 

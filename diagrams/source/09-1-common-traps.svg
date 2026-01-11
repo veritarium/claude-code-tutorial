@@ -39,7 +39,7 @@
   <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Mistakes beginners make with AI coding</text>
 
   <!-- Trap 1 -->
-  <rect x="60" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <rect x="60" y="110" width="330" height="200" fill="url(#badRed)"/>
   <text x="225" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 1</text>
   <text x="225" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Blind Trust</text>
   <rect x="80" y="195" width="290" height="95" fill="#ffffff"/>
@@ -48,7 +48,7 @@
   <text x="225" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Ask AI to explain what it does</text>
 
   <!-- Trap 2 -->
-  <rect x="420" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <rect x="420" y="110" width="330" height="200" fill="url(#badRed)"/>
   <text x="585" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 2</text>
   <text x="585" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Vague Prompts</text>
   <rect x="440" y="195" width="290" height="95" fill="#ffffff"/>
@@ -57,7 +57,7 @@
   <text x="585" y="275" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">State expected vs actual behavior</text>
 
   <!-- Trap 3 -->
-  <rect x="780" y="110" width="330" height="200" fill="url(#brightRed)"/>
+  <rect x="780" y="110" width="330" height="200" fill="url(#badRed)"/>
   <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">TRAP 3</text>
   <text x="945" y="180" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Too Big Tasks</text>
   <rect x="800" y="195" width="290" height="95" fill="#ffffff"/>
